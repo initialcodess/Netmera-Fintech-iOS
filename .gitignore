@@ -1,0 +1,24 @@
+# Xcode
+.DS_Store
+*.pbxuser
+*.perspectivev3
+*.xcworkspacedata
+*.xcuserdata
+*.xcuserstate
+*/xcuserdata/*
+
+# Build artifacts
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Other
+*.hmap
+*.ipa
+*.dSYM

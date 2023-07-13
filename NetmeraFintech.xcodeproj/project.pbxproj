@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */; };
+		1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */; };
+		1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD72A601D2E00CBC784 /* OnboardingVC.swift */; };
+		1C2E0BDB2A601D2E00CBC784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD92A601D2E00CBC784 /* Main.storyboard */; };
+		1C2E0BDD2A601D2F00CBC784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BDC2A601D2F00CBC784 /* Assets.xcassets */; };
+		1C2E0BE02A601D2F00CBC784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */; };
+		1C2E0BEA2A60297100CBC784 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BE92A60297100CBC784 /* OnboardingViewModel.swift */; };
+		1C2E0BF52A602D1200CBC784 /* hubballi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BED2A602D1200CBC784 /* hubballi.ttf */; };
+		1C2E0BF62A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BEE2A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf */; };
+		1C2E0BF72A602D1200CBC784 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BEF2A602D1200CBC784 /* Nunito-Regular.ttf */; };
+		1C2E0BF82A602D1200CBC784 /* sf_pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BF02A602D1200CBC784 /* sf_pro.ttf */; };
+		1C2E0BF92A602D1200CBC784 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BF12A602D1200CBC784 /* Nunito-SemiBold.ttf */; };
+		1C2E0BFA2A602D1200CBC784 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BF22A602D1200CBC784 /* Nunito-Bold.ttf */; };
+		1C2E0BFB2A602D1200CBC784 /* sf_pro_display.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BF32A602D1200CBC784 /* sf_pro_display.ttf */; };
+		1C2E0BFC2A602D1200CBC784 /* sf_pro_display_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E0BF42A602D1200CBC784 /* sf_pro_display_bold.ttf */; };
+		1C2E0C032A604B6700CBC784 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C022A604B6700CBC784 /* UIButton.swift */; };
+		1C2E0C052A604BE200CBC784 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C042A604BE200CBC784 /* UIColor.swift */; };
+		1C2E0C072A604C4100CBC784 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C062A604C4100CBC784 /* Fonts.swift */; };
+		1C2E0C092A604D1100CBC784 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C082A604D1100CBC784 /* UIView.swift */; };
+		1C2E0C0B2A604FC800CBC784 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C0A2A604FC800CBC784 /* UIImage.swift */; };
+		98802372907F0EB9504218C3 /* Pods_NetmeraFintech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658ADBFE5A057845353E357F /* Pods_NetmeraFintech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B4DC967A2ED513CC3DB742 /* Pods-NetmeraFintech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.release.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.release.xcconfig"; sourceTree = "<group>"; };
+		1C2E0BD02A601D2E00CBC784 /* NetmeraFintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraFintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C2E0BD72A601D2E00CBC784 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		1C2E0BDA2A601D2E00CBC784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C2E0BDC2A601D2F00CBC784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C2E0BDF2A601D2F00CBC784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C2E0BE12A601D2F00CBC784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2E0BE92A60297100CBC784 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		1C2E0BED2A602D1200CBC784 /* hubballi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hubballi.ttf; sourceTree = "<group>"; };
+		1C2E0BEE2A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		1C2E0BEF2A602D1200CBC784 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		1C2E0BF02A602D1200CBC784 /* sf_pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf_pro.ttf; sourceTree = "<group>"; };
+		1C2E0BF12A602D1200CBC784 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		1C2E0BF22A602D1200CBC784 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		1C2E0BF32A602D1200CBC784 /* sf_pro_display.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf_pro_display.ttf; sourceTree = "<group>"; };
+		1C2E0BF42A602D1200CBC784 /* sf_pro_display_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf_pro_display_bold.ttf; sourceTree = "<group>"; };
+		1C2E0C022A604B6700CBC784 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		1C2E0C042A604BE200CBC784 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1C2E0C062A604C4100CBC784 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		1C2E0C082A604D1100CBC784 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1C2E0C0A2A604FC800CBC784 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		658ADBFE5A057845353E357F /* Pods_NetmeraFintech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmeraFintech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCCBB5BD8FDDA69FF608375 /* Pods-NetmeraFintech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.debug.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2E0BCD2A601D2E00CBC784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98802372907F0EB9504218C3 /* Pods_NetmeraFintech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2E0BC72A601D2E00CBC784 = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BD22A601D2E00CBC784 /* NetmeraFintech */,
+				1C2E0BD12A601D2E00CBC784 /* Products */,
+				83141C1D0CD73F0EF2EFAC2A /* Pods */,
+				916ECBA36FC6FE68D773CF9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2E0BD12A601D2E00CBC784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BD02A601D2E00CBC784 /* NetmeraFintech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2E0BD22A601D2E00CBC784 /* NetmeraFintech */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0C012A604B5500CBC784 /* Extensions */,
+				1C2E0BFE2A60477300CBC784 /* Utilities */,
+				1C2E0BEB2A602D0600CBC784 /* Resources */,
+				1C2E0BE72A60289A00CBC784 /* UI */,
+				1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */,
+				1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */,
+				1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */,
+				1C2E0BE12A601D2F00CBC784 /* Info.plist */,
+			);
+			path = NetmeraFintech;
+			sourceTree = "<group>";
+		};
+		1C2E0BE72A60289A00CBC784 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BE82A6028A600CBC784 /* Onboarding */,
+				1C2E0BD92A601D2E00CBC784 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1C2E0BE82A6028A600CBC784 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BD72A601D2E00CBC784 /* OnboardingVC.swift */,
+				1C2E0BE92A60297100CBC784 /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1C2E0BEB2A602D0600CBC784 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BEC2A602D1200CBC784 /* Fonts */,
+				1C2E0BDC2A601D2F00CBC784 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C2E0BEC2A602D1200CBC784 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0BED2A602D1200CBC784 /* hubballi.ttf */,
+				1C2E0BEE2A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf */,
+				1C2E0BEF2A602D1200CBC784 /* Nunito-Regular.ttf */,
+				1C2E0BF02A602D1200CBC784 /* sf_pro.ttf */,
+				1C2E0BF12A602D1200CBC784 /* Nunito-SemiBold.ttf */,
+				1C2E0BF22A602D1200CBC784 /* Nunito-Bold.ttf */,
+				1C2E0BF32A602D1200CBC784 /* sf_pro_display.ttf */,
+				1C2E0BF42A602D1200CBC784 /* sf_pro_display_bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1C2E0BFE2A60477300CBC784 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0C062A604C4100CBC784 /* Fonts.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1C2E0C012A604B5500CBC784 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E0C022A604B6700CBC784 /* UIButton.swift */,
+				1C2E0C042A604BE200CBC784 /* UIColor.swift */,
+				1C2E0C082A604D1100CBC784 /* UIView.swift */,
+				1C2E0C0A2A604FC800CBC784 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83141C1D0CD73F0EF2EFAC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFCCBB5BD8FDDA69FF608375 /* Pods-NetmeraFintech.debug.xcconfig */,
+				15B4DC967A2ED513CC3DB742 /* Pods-NetmeraFintech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		916ECBA36FC6FE68D773CF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658ADBFE5A057845353E357F /* Pods_NetmeraFintech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2E0BCF2A601D2E00CBC784 /* NetmeraFintech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2E0BE42A601D2F00CBC784 /* Build configuration list for PBXNativeTarget "NetmeraFintech" */;
+			buildPhases = (
+				27B03B12FBC096B9CE7F31C9 /* [CP] Check Pods Manifest.lock */,
+				1C2E0BCC2A601D2E00CBC784 /* Sources */,
+				1C2E0BCD2A601D2E00CBC784 /* Frameworks */,
+				1C2E0BCE2A601D2E00CBC784 /* Resources */,
+				1C2E0BFD2A602FCC00CBC784 /* Swift Format */,
+				83545FA7296ADEB490A39E0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetmeraFintech;
+			productName = NetmeraFintech;
+			productReference = 1C2E0BD02A601D2E00CBC784 /* NetmeraFintech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2E0BC82A601D2E00CBC784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1C2E0BCF2A601D2E00CBC784 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1C2E0BCB2A601D2E00CBC784 /* Build configuration list for PBXProject "NetmeraFintech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C2E0BC72A601D2E00CBC784;
+			productRefGroup = 1C2E0BD12A601D2E00CBC784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2E0BCF2A601D2E00CBC784 /* NetmeraFintech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C2E0BCE2A601D2E00CBC784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2E0BFB2A602D1200CBC784 /* sf_pro_display.ttf in Resources */,
+				1C2E0BF92A602D1200CBC784 /* Nunito-SemiBold.ttf in Resources */,
+				1C2E0BF72A602D1200CBC784 /* Nunito-Regular.ttf in Resources */,
+				1C2E0BFC2A602D1200CBC784 /* sf_pro_display_bold.ttf in Resources */,
+				1C2E0BE02A601D2F00CBC784 /* LaunchScreen.storyboard in Resources */,
+				1C2E0BF62A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				1C2E0BFA2A602D1200CBC784 /* Nunito-Bold.ttf in Resources */,
+				1C2E0BDD2A601D2F00CBC784 /* Assets.xcassets in Resources */,
+				1C2E0BF82A602D1200CBC784 /* sf_pro.ttf in Resources */,
+				1C2E0BDB2A601D2E00CBC784 /* Main.storyboard in Resources */,
+				1C2E0BF52A602D1200CBC784 /* hubballi.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2E0BFD2A602FCC00CBC784 /* Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		27B03B12FBC096B9CE7F31C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetmeraFintech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83545FA7296ADEB490A39E0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2E0BCC2A601D2E00CBC784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2E0C092A604D1100CBC784 /* UIView.swift in Sources */,
+				1C2E0C072A604C4100CBC784 /* Fonts.swift in Sources */,
+				1C2E0C032A604B6700CBC784 /* UIButton.swift in Sources */,
+				1C2E0C052A604BE200CBC784 /* UIColor.swift in Sources */,
+				1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */,
+				1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */,
+				1C2E0C0B2A604FC800CBC784 /* UIImage.swift in Sources */,
+				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
+				1C2E0BEA2A60297100CBC784 /* OnboardingViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C2E0BD92A601D2E00CBC784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2E0BDA2A601D2E00CBC784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2E0BDF2A601D2F00CBC784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C2E0BE22A601D2F00CBC784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C2E0BE32A601D2F00CBC784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C2E0BE52A601D2F00CBC784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCCBB5BD8FDDA69FF608375 /* Pods-NetmeraFintech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetmeraFintech/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Impact Fintech";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netmera.NetmeraFintech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C2E0BE62A601D2F00CBC784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B4DC967A2ED513CC3DB742 /* Pods-NetmeraFintech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetmeraFintech/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Impact Fintech";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netmera.NetmeraFintech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2E0BCB2A601D2E00CBC784 /* Build configuration list for PBXProject "NetmeraFintech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2E0BE22A601D2F00CBC784 /* Debug */,
+				1C2E0BE32A601D2F00CBC784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2E0BE42A601D2F00CBC784 /* Build configuration list for PBXNativeTarget "NetmeraFintech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2E0BE52A601D2F00CBC784 /* Debug */,
+				1C2E0BE62A601D2F00CBC784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2E0BC82A601D2E00CBC784 /* Project object */;
+}

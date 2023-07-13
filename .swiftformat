@@ -1,0 +1,3 @@
+--exclude Carthage
+--exclude Pods
+--exclude Generated
