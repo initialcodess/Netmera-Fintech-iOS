@@ -9,10 +9,12 @@ import UIKit
 
 class OnboardingVC: UIViewController {
     private let viewModel = OnboardingViewModel()
-    @IBOutlet var headerLabel: UILabel!
-    @IBOutlet var getStartedButton: UIButton!
-    @IBOutlet var signInButton: UIButton!
+    
     @IBOutlet var emailTextField: UITextField!
+    @IBOutlet var getStartedButton: UIButton!
+    @IBOutlet var headerLabel: UILabel!
+    @IBOutlet var signInButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
