@@ -1,16 +1,117 @@
 PODS:
+  - Alamofire (5.2.2)
   - IQKeyboardManagerSwift (6.5.12)
+  - NetmeraAdvertisingId (4.0.0):
+    - NetmeraAnalytic (= 4.0.0)
+  - NetmeraAnalytic (4.0.0):
+    - NetmeraCore (= 4.0.0)
+  - NetmeraAnalyticAutotracking (4.0.0):
+    - NetmeraAnalytic (= 4.0.0)
+  - NetmeraCore (4.0.0):
+    - Alamofire (~> 5.2.0)
+    - Swinject (~> 2.8.0)
+  - NetmeraGeofence (4.0.0):
+    - NetmeraLocation (= 4.0.0)
+  - NetmeraLocation (4.0.0):
+    - NetmeraAnalytic (= 4.0.0)
+  - NetmeraNotification (4.0.0):
+    - NetmeraNotificationCore (= 4.0.0)
+  - NetmeraNotificationCore (4.0.0):
+    - NetmeraAnalytic (= 4.0.0)
+  - NetmeraNotificationInbox (4.0.0):
+    - NetmeraNotificationCore (= 4.0.0)
+  - Swinject (2.8.3)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - NetmeraAdvertisingId (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraAnalytic (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraAnalyticAutotracking (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraCore (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraGeofence (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraLocation (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraNotification (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraNotificationCore (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraNotificationInbox (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - IQKeyboardManagerSwift
+    - Swinject
+
+EXTERNAL SOURCES:
+  NetmeraAdvertisingId:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraAnalytic:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraAnalyticAutotracking:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraCore:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraGeofence:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraLocation:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotification:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationCore:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationInbox:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
+
+CHECKOUT OPTIONS:
+  NetmeraAdvertisingId:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraAnalytic:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraAnalyticAutotracking:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraCore:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraGeofence:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraLocation:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotification:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationCore:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationInbox:
+    :commit: c76aa76460d256a3c8d583ed20789e977367798f
+    :git: https://github.com/Netmera/swift-sdk
 
 SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  NetmeraAdvertisingId: c232717be5302192a8a10fb9901c3f27c399313c
+  NetmeraAnalytic: 89dc38361bd84249cb2c024736f3463f7f80164a
+  NetmeraAnalyticAutotracking: 555f5e9993f3bb5385013a52adeed963386f90af
+  NetmeraCore: c4904b8e0dd3b793894b75fb12baeaf79b44c800
+  NetmeraGeofence: bf8bea6aef4cd59466bc9e3f0a5cc7ccce7fb64f
+  NetmeraLocation: 5f05b88bdf39427c9cf21fa0eae4f222f0721f8f
+  NetmeraNotification: 2d08ff1d8abc4d0dffbeb0419029a4752a7ac5b1
+  NetmeraNotificationCore: 7826cb0628023db401e02f2b1eb1f37475107572
+  NetmeraNotificationInbox: 3c8aac197856b6df50cb8dbd17b659b362dae58e
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
 
-PODFILE CHECKSUM: 658d5d3fc56a72926cf121205bbefafddacf2b23
+PODFILE CHECKSUM: 870717820e9892b3a681078e93816d88bdd32958
 
 COCOAPODS: 1.12.1
