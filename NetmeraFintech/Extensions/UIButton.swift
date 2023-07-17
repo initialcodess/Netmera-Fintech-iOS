@@ -10,7 +10,6 @@ import UIKit
 private let buttonPrimaryColor = UIColor(hex: 0x007AFF)
 
 extension UIButton {
-    
     func outLined(borderColor: UIColor = buttonPrimaryColor,
                   borderWidth: CGFloat = 1.0,
                   backgroundColor: UIColor = UIColor.white,
