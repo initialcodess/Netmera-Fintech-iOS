@@ -5,32 +5,22 @@
 //  Created by InitialCode on 13.07.2023.
 //
 
-import UIKit
 import IQKeyboardManagerSwift
-import NetmeraAnalytic
-import NetmeraNotification
-import NetmeraLocation
-import NetmeraNotificationInbox
 import NetmeraAdvertisingId
-
-private let NETMERA_API_KEY = "RH9qH4AIng0xmH-dqrh3SYTSU3Kw3OrQpqAkyF-u6YOgwJJt_7n55WtPYT3ak-U_"
+import NetmeraAnalytic
+import NetmeraLocation
+import NetmeraNotification
+import NetmeraNotificationInbox
+import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
-        
-        initNetmera()
-       
+
+        NetmeraHelper.initNetmera()
+
         return true
-    }
-    
-    private func initNetmera() {
-        let netmeraParams = NetmeraParams(
-          apiKey: NETMERA_API_KEY
-        )
-        Netmera.initialize(params: netmeraParams)
-        Netmera.setLogLevel(.debug) // Options can be .debug, .info, .error, .fault
     }
 
     // MARK: UISceneSession Lifecycle

@@ -14,19 +14,19 @@ class OnboardingViewModel {
             attributes: [NSAttributedString.Key.kern: 12.0]
         )
     }
-    
+
     func sendGetStartedEvent() {
         NetmeraEvents.getStartedEvent()
-        // TODO Firebase event
+        // TODO: Firebase event
     }
-    
-    func updateUserAndsendSignInEvent(email: String) {
+
+    func updateUserAndSendSignInEvent(email: String) {
         var user = ImpactFintechUser()
         user.userName = "Burak"
         user.userId = email
         user.type = "black"
         NetmeraHelper.updateUser(user: user)
         NetmeraEvents.signInEvent()
-        // TODO Firebase event
+        // TODO: Firebase event
     }
 }

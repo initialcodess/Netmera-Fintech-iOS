@@ -28,7 +28,7 @@
 		1C2E0C092A604D1100CBC784 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C082A604D1100CBC784 /* UIView.swift */; };
 		1C2E0C0B2A604FC800CBC784 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0C0A2A604FC800CBC784 /* UIImage.swift */; };
 		1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */; };
-		1CEC24842A618B6300AB937A /* AppEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEvents.swift */; };
+		1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */; };
 		1CEC24872A618BB800AB937A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24862A618BB800AB937A /* Card.swift */; };
 		1CEC24892A618BFB00AB937A /* ImpactFintechUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24882A618BFB00AB937A /* ImpactFintechUser.swift */; };
 		1CEC248C2A618D6000AB937A /* AddNotesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC248B2A618D6000AB937A /* AddNotesEvent.swift */; };
@@ -83,7 +83,7 @@
 		1C2E0C082A604D1100CBC784 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		1C2E0C0A2A604FC800CBC784 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraHelper.swift; sourceTree = "<group>"; };
-		1CEC24832A618B6300AB937A /* AppEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvents.swift; sourceTree = "<group>"; };
+		1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsProtocol.swift; sourceTree = "<group>"; };
 		1CEC24862A618BB800AB937A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1CEC24882A618BFB00AB937A /* ImpactFintechUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactFintechUser.swift; sourceTree = "<group>"; };
 		1CEC248B2A618D6000AB937A /* AddNotesEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotesEvent.swift; sourceTree = "<group>"; };
@@ -235,8 +235,8 @@
 		1CEC24822A618B1200AB937A /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				1CEC248A2A618D2800AB937A /* Netmera Event Models */,
-				1CEC24832A618B6300AB937A /* AppEvents.swift */,
+				1CEC248A2A618D2800AB937A /* NetmeraEventModels */,
+				1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */,
 				1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */,
 			);
 			path = Events;
@@ -252,7 +252,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1CEC248A2A618D2800AB937A /* Netmera Event Models */ = {
+		1CEC248A2A618D2800AB937A /* NetmeraEventModels */ = {
 			isa = PBXGroup;
 			children = (
 				1CEC248B2A618D6000AB937A /* AddNotesEvent.swift */,
@@ -277,7 +277,7 @@
 				1CEC24B12A61948D00AB937A /* SignOutEvent.swift */,
 				1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */,
 			);
-			path = "Netmera Event Models";
+			path = NetmeraEventModels;
 			sourceTree = "<group>";
 		};
 		83141C1D0CD73F0EF2EFAC2A /* Pods */ = {
@@ -377,8 +377,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		1C2E0BFD2A602FCC00CBC784 /* Swift Format */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -390,7 +389,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
@@ -471,7 +470,7 @@
 				1CEC24B42A61949400AB937A /* SomethingWrongEvent.swift in Sources */,
 				1CEC249E2A618DBC00AB937A /* ManageAccountEvent.swift in Sources */,
 				1CEC24A62A61945D00AB937A /* PaySomeoneEvent.swift in Sources */,
-				1CEC24842A618B6300AB937A /* AppEvents.swift in Sources */,
+				1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */,
 				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,

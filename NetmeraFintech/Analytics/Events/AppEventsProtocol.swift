@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol AppEvents {
+protocol AppEventsProtocol {
     static func addNotesEvent()
     static func appSettingsEvent()
     static func cardSettingsEvent()
