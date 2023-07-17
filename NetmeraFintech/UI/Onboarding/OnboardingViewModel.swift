@@ -17,7 +17,7 @@ class OnboardingViewModel {
 
     func sendGetStartedEvent() {
         NetmeraEvents.getStartedEvent()
-        // TODO: Firebase event
+        FirebaseEvents.getStartedEvent()
     }
 
     func updateUserAndSendSignInEvent(email: String) {
@@ -27,6 +27,6 @@ class OnboardingViewModel {
         user.type = "black"
         NetmeraHelper.updateUser(user: user)
         NetmeraEvents.signInEvent()
-        // TODO: Firebase event
+        FirebaseEvents.signInEvent()
     }
 }

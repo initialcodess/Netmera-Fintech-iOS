@@ -5,6 +5,7 @@
 //  Created by InitialCode on 13.07.2023.
 //
 
+import FirebaseCore
 import IQKeyboardManagerSwift
 import NetmeraAdvertisingId
 import NetmeraAnalytic
@@ -19,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
 
         NetmeraHelper.initNetmera()
+
+        FirebaseApp.configure()
 
         return true
     }
