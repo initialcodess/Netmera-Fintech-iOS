@@ -37,11 +37,11 @@ class OnboardingVC: UIViewController {
             viewModel.updateUserAndSendSignInEvent(email: email)
             message = "The user update is completed and the sign-In event was sent."
         }
-        DialogUtils.showDialog(viewController: self, message: message)
+        showDialog(message: message)
     }
 
     @objc func getStartedButtonClicked() {
         viewModel.sendGetStartedEvent()
-        DialogUtils.showEventDialog(viewController: self)
+        showEventDialog()
     }
 }

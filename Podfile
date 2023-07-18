@@ -6,6 +6,8 @@ target 'NetmeraFintech' do
   use_frameworks!
   pod 'IQKeyboardManagerSwift'
   # Pods for NetmeraFintech
+  
+  # Netmera Pods
   pod "NetmeraCore", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraAnalytic", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraAnalyticAutotracking", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
@@ -15,6 +17,10 @@ target 'NetmeraFintech' do
   pod "NetmeraGeofence", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraNotificationCore", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraNotificationInbox", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
+  
+  # Firebase Pods
+  pod 'FirebaseAnalytics'
+  
   post_install do |installer|
     installer.pods_project.build_configurations.each do |config|
       config.build_settings["BUILD_LIBRARY_FOR_DISTRIBUTION"] = "YES"
