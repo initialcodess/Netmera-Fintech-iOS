@@ -21,6 +21,9 @@ target 'NetmeraFintech' do
   # Firebase Pods
   pod 'FirebaseAnalytics'
   
+  pod 'SwiftMessages'
+  pod "CenteredCollectionView"
+  
   post_install do |installer|
     installer.pods_project.build_configurations.each do |config|
       config.build_settings["BUILD_LIBRARY_FOR_DISTRIBUTION"] = "YES"

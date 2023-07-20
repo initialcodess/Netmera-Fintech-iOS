@@ -24,6 +24,9 @@ class OnboardingVC: UIViewController {
 
         signInButton.addTarget(self, action: #selector(signInButtonClicked), for: .touchUpInside)
         getStartedButton.addTarget(self, action: #selector(getStartedButtonClicked), for: .touchUpInside)
+
+        Netmera.setEnabledPopupPresentation(true)
+        Netmera.setEnabledInAppMessagePresentation(true)
     }
 
     override func viewDidAppear(_ animated: Bool) {

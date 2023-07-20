@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.2.2)
+  - CenteredCollectionView (2.2.2)
   - FirebaseAnalytics (10.11.0):
     - FirebaseAnalytics/AdIdSupport (= 10.11.0)
     - FirebaseCore (~> 10.0)
@@ -94,9 +95,13 @@ PODS:
   - NetmeraNotificationInbox (4.0.0):
     - NetmeraNotificationCore (= 4.0.0)
   - PromisesObjC (2.2.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
   - Swinject (2.8.3)
 
 DEPENDENCIES:
+  - CenteredCollectionView
   - FirebaseAnalytics
   - IQKeyboardManagerSwift
   - NetmeraAdvertisingId (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
@@ -108,10 +113,12 @@ DEPENDENCIES:
   - NetmeraNotification (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationCore (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationInbox (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - SwiftMessages
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CenteredCollectionView
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseCoreInternal
@@ -121,6 +128,7 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - nanopb
     - PromisesObjC
+    - SwiftMessages
     - Swinject
 
 EXTERNAL SOURCES:
@@ -183,6 +191,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  CenteredCollectionView: a9217908a698c386cbb98af11b596da48900b908
   FirebaseAnalytics: 6c6bf99e8854475bf1fa342028841be8ecd236da
   FirebaseCore: 62fd4d549f5e3f3bd52b7998721c5fa0557fb355
   FirebaseCoreInternal: 9e46c82a14a3b3a25be4e1e151ce6d21536b89c0
@@ -201,8 +210,9 @@ SPEC CHECKSUMS:
   NetmeraNotificationCore: 7826cb0628023db401e02f2b1eb1f37475107572
   NetmeraNotificationInbox: 3c8aac197856b6df50cb8dbd17b659b362dae58e
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
 
-PODFILE CHECKSUM: f771c55d396b316d9b4d0bc743886ccfc64cf4a0
+PODFILE CHECKSUM: a830728865496e4e5d479640a471f310f91762b4
 
 COCOAPODS: 1.12.1
