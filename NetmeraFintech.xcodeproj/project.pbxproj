@@ -13,7 +13,6 @@
 		1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916112A66BA48006FC3B4 /* ExitVC.swift */; };
 		1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */; };
 		1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */; };
-		1C0916182A66BC4D006FC3B4 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916172A66BC4D006FC3B4 /* UINavigationController.swift */; };
 		1C26F9672A69347B00634EBF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26F9662A69347B00634EBF /* HomeViewModel.swift */; };
 		1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2928782A6807080081E587 /* CardCollectionViewCell.swift */; };
 		1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */; };
@@ -82,7 +81,6 @@
 		1C0916112A66BA48006FC3B4 /* ExitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitVC.swift; sourceTree = "<group>"; };
 		1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsVC.swift; sourceTree = "<group>"; };
 		1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarVC.swift; sourceTree = "<group>"; };
-		1C0916172A66BC4D006FC3B4 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		1C26F9662A69347B00634EBF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1C2928782A6807080081E587 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
@@ -319,7 +317,6 @@
 				1C2E0C082A604D1100CBC784 /* UIView.swift */,
 				1C2E0C0A2A604FC800CBC784 /* UIImage.swift */,
 				1C785CBB2A65549000A5A8DA /* UIViewController.swift */,
-				1C0916172A66BC4D006FC3B4 /* UINavigationController.swift */,
 				1CAF3F712A682EAA00635809 /* Double.swift */,
 			);
 			path = Extensions;
@@ -589,7 +586,6 @@
 				1CEC249E2A618DBC00AB937A /* ManageAccountEvent.swift in Sources */,
 				1CEC24A62A61945D00AB937A /* PaySomeoneEvent.swift in Sources */,
 				1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */,
-				1C0916182A66BC4D006FC3B4 /* UINavigationController.swift in Sources */,
 				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,
