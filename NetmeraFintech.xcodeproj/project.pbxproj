@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C09160C2A66B83D006FC3B4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160B2A66B83D006FC3B4 /* HomeVC.swift */; };
+		1C09160E2A66B9A0006FC3B4 /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */; };
+		1C0916102A66BA34006FC3B4 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */; };
+		1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916112A66BA48006FC3B4 /* ExitVC.swift */; };
+		1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */; };
+		1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */; };
+		1C26F9672A69347B00634EBF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26F9662A69347B00634EBF /* HomeViewModel.swift */; };
+		1C26F9692A696E5F00634EBF /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */; };
+		1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2928782A6807080081E587 /* CardCollectionViewCell.swift */; };
+		1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */; };
+		1C29287F2A6826660081E587 /* TransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */; };
 		1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */; };
 		1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */; };
 		1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD72A601D2E00CBC784 /* OnboardingVC.swift */; };
@@ -30,6 +41,8 @@
 		1C785CBC2A65549000A5A8DA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C785CBB2A65549000A5A8DA /* UIViewController.swift */; };
 		1C785CBE2A65565200A5A8DA /* FirebaseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */; };
 		1C785CC02A65644900A5A8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */; };
+		1CAF3F702A68272700635809 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F6F2A68272700635809 /* Transaction.swift */; };
+		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
 		1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */; };
 		1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */; };
 		1CEC24872A618BB800AB937A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24862A618BB800AB937A /* Card.swift */; };
@@ -57,12 +70,22 @@
 		1CEC24B42A61949400AB937A /* SomethingWrongEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */; };
 		1CEC24B62A61A24B00AB937A /* NetmeraEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */; };
 		1CEC24B82A61A39300AB937A /* NMFintechUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B72A61A39300AB937A /* NMFintechUser.swift */; };
-		1CEC24BA2A61AB1700AB937A /* DialogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B92A61AB1700AB937A /* DialogUtils.swift */; };
 		98802372907F0EB9504218C3 /* Pods_NetmeraFintech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658ADBFE5A057845353E357F /* Pods_NetmeraFintech.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15B4DC967A2ED513CC3DB742 /* Pods-NetmeraFintech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.release.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.release.xcconfig"; sourceTree = "<group>"; };
+		1C09160B2A66B83D006FC3B4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
+		1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		1C0916112A66BA48006FC3B4 /* ExitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitVC.swift; sourceTree = "<group>"; };
+		1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsVC.swift; sourceTree = "<group>"; };
+		1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarVC.swift; sourceTree = "<group>"; };
+		1C26F9662A69347B00634EBF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		1C2928782A6807080081E587 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C2E0BD02A601D2E00CBC784 /* NetmeraFintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraFintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +111,8 @@
 		1C785CBB2A65549000A5A8DA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEvents.swift; sourceTree = "<group>"; };
 		1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CAF3F6F2A68272700635809 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraHelper.swift; sourceTree = "<group>"; };
 		1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsProtocol.swift; sourceTree = "<group>"; };
 		1CEC24862A618BB800AB937A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -115,7 +140,6 @@
 		1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingWrongEvent.swift; sourceTree = "<group>"; };
 		1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraEvents.swift; sourceTree = "<group>"; };
 		1CEC24B72A61A39300AB937A /* NMFintechUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMFintechUser.swift; sourceTree = "<group>"; };
-		1CEC24B92A61AB1700AB937A /* DialogUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogUtils.swift; sourceTree = "<group>"; };
 		658ADBFE5A057845353E357F /* Pods_NetmeraFintech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmeraFintech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCCBB5BD8FDDA69FF608375 /* Pods-NetmeraFintech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.debug.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +156,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0916052A66B7DE006FC3B4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1C0916092A66B825006FC3B4 /* Analytics */,
+				1C09160A2A66B82C006FC3B4 /* Exit */,
+				1C0916082A66B806006FC3B4 /* History */,
+				1C0916062A66B7EF006FC3B4 /* Home */,
+				1C0916072A66B800006FC3B4 /* Payments */,
+				1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1C0916062A66B7EF006FC3B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C26F9652A69346700634EBF /* Cells */,
+				1C09160B2A66B83D006FC3B4 /* HomeVC.swift */,
+				1C26F9662A69347B00634EBF /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C0916072A66B800006FC3B4 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		1C0916082A66B806006FC3B4 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		1C0916092A66B825006FC3B4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		1C09160A2A66B82C006FC3B4 /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				1C0916112A66BA48006FC3B4 /* ExitVC.swift */,
+			);
+			path = Exit;
+			sourceTree = "<group>";
+		};
+		1C26F9652A69346700634EBF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1C2928782A6807080081E587 /* CardCollectionViewCell.swift */,
+				1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1C2E0BC72A601D2E00CBC784 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +259,7 @@
 		1C2E0BE72A60289A00CBC784 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C0916052A66B7DE006FC3B4 /* Dashboard */,
 				1C2E0BE82A6028A600CBC784 /* Onboarding */,
 				1C2E0BD92A601D2E00CBC784 /* Main.storyboard */,
 			);
@@ -198,6 +287,7 @@
 		1C2E0BEC2A602D1200CBC784 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */,
 				1C2E0BED2A602D1200CBC784 /* hubballi.ttf */,
 				1C2E0BEE2A602D1200CBC784 /* Nunito-ExtraLightItalic.ttf */,
 				1C2E0BEF2A602D1200CBC784 /* Nunito-Regular.ttf */,
@@ -214,7 +304,8 @@
 			isa = PBXGroup;
 			children = (
 				1C2E0C062A604C4100CBC784 /* Fonts.swift */,
-				1CEC24B92A61AB1700AB937A /* DialogUtils.swift */,
+				1CAF3F732A682F1A00635809 /* Colors.swift */,
+				1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -257,6 +348,7 @@
 				1CEC24862A618BB800AB937A /* Card.swift */,
 				1CEC24882A618BFB00AB937A /* ImpactFintechUser.swift */,
 				1CEC24B72A61A39300AB937A /* NMFintechUser.swift */,
+				1CAF3F6F2A68272700635809 /* Transaction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,6 +462,7 @@
 				1C2E0BFB2A602D1200CBC784 /* sf_pro_display.ttf in Resources */,
 				1C2E0BF92A602D1200CBC784 /* Nunito-SemiBold.ttf in Resources */,
 				1C2E0BF72A602D1200CBC784 /* Nunito-Regular.ttf in Resources */,
+				1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */,
 				1C2E0BFC2A602D1200CBC784 /* sf_pro_display_bold.ttf in Resources */,
 				1C2E0BE02A601D2F00CBC784 /* LaunchScreen.storyboard in Resources */,
 				1C785CC02A65644900A5A8DA /* GoogleService-Info.plist in Resources */,
@@ -450,12 +543,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */,
+				1C09160C2A66B83D006FC3B4 /* HomeVC.swift in Sources */,
+				1CAF3F702A68272700635809 /* Transaction.swift in Sources */,
+				1C09160E2A66B9A0006FC3B4 /* PaymentsVC.swift in Sources */,
 				1C785CBE2A65565200A5A8DA /* FirebaseEvents.swift in Sources */,
+				1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */,
 				1C2E0C092A604D1100CBC784 /* UIView.swift in Sources */,
 				1C2E0C072A604C4100CBC784 /* Fonts.swift in Sources */,
 				1CEC24AA2A61946C00AB937A /* RequestMoneyEvent.swift in Sources */,
+				1C0916102A66BA34006FC3B4 /* HistoryVC.swift in Sources */,
 				1CEC24A82A61946400AB937A /* PurchaseEvent.swift in Sources */,
 				1CEC24AC2A61947600AB937A /* SearchForPayeesEvent.swift in Sources */,
+				1C26F9692A696E5F00634EBF /* UserDefaultsHelper.swift in Sources */,
 				1CEC249C2A618DB200AB937A /* GetStartedEvent.swift in Sources */,
 				1CEC24942A618D8B00AB937A /* ContactsEvent.swift in Sources */,
 				1CEC24A22A61944D00AB937A /* PaymentDetailEvent.swift in Sources */,
@@ -467,16 +566,20 @@
 				1C2E0C052A604BE200CBC784 /* UIColor.swift in Sources */,
 				1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */,
 				1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */,
+				1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */,
 				1CEC249A2A618DAA00AB937A /* FreezeCardEvent.swift in Sources */,
 				1CEC24872A618BB800AB937A /* Card.swift in Sources */,
+				1C29287F2A6826660081E587 /* TransactionCollectionViewCell.swift in Sources */,
+				1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */,
 				1CEC24962A618D9800AB937A /* ContactUsForSupportEvent.swift in Sources */,
 				1CEC24892A618BFB00AB937A /* ImpactFintechUser.swift in Sources */,
+				1CAF3F742A682F1A00635809 /* Colors.swift in Sources */,
 				1C2E0C0B2A604FC800CBC784 /* UIImage.swift in Sources */,
 				1C785CBC2A65549000A5A8DA /* UIViewController.swift in Sources */,
+				1C26F9672A69347B00634EBF /* HomeViewModel.swift in Sources */,
 				1CEC248E2A618D6C00AB937A /* AppSettingsEvent.swift in Sources */,
 				1CEC24B22A61948D00AB937A /* SignOutEvent.swift in Sources */,
 				1CEC24A02A61944400AB937A /* NearbyEvent.swift in Sources */,
-				1CEC24BA2A61AB1700AB937A /* DialogUtils.swift in Sources */,
 				1CEC24B02A61948500AB937A /* SignInEvent.swift in Sources */,
 				1CEC248C2A618D6000AB937A /* AddNotesEvent.swift in Sources */,
 				1CEC24B42A61949400AB937A /* SomethingWrongEvent.swift in Sources */,
@@ -486,6 +589,7 @@
 				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,
+				1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */,
 				1C2E0BEA2A60297100CBC784 /* OnboardingViewModel.swift in Sources */,
 				1CEC24902A618D7700AB937A /* CardSettingsEvent.swift in Sources */,
 			);

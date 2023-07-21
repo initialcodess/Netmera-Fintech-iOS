@@ -13,7 +13,7 @@ extension UIButton {
     func outLined(borderColor: UIColor = buttonPrimaryColor,
                   borderWidth: CGFloat = 1.0,
                   backgroundColor: UIColor = UIColor.white,
-                  corderRadius: CGFloat = 10.0,
+                  cornerRadius: CGFloat = 10.0,
                   textColor: UIColor = buttonPrimaryColor,
                   font: UIFont = Fonts.nunitoSemiBold(size: 16),
                   icon: UIImage? = nil)
@@ -21,7 +21,7 @@ extension UIButton {
         self.borderColor = borderColor
         self.borderWidth = borderWidth
         self.backgroundColor = backgroundColor
-        cornerRadius = corderRadius
+        self.cornerRadius = cornerRadius
         setTitleColor(textColor, for: .normal)
         titleLabel?.font = font
 
@@ -38,19 +38,21 @@ extension UIButton {
     func filled(borderColor: UIColor = UIColor.white,
                 borderWidth: CGFloat = 0.0,
                 backgroundColor: UIColor = buttonPrimaryColor,
-                corderRadius: CGFloat = 10.0,
+                cornerRadius: CGFloat = 10.0,
                 textColor: UIColor = UIColor.white,
                 font: UIFont = Fonts.nunitoSemiBold(size: 16),
                 tint: UIColor = buttonPrimaryColor,
+                iconWidth: Int = 24,
+                iconHeight: Int = 24,
                 icon: UIImage? = nil)
     {
         self.borderColor = borderColor
         self.borderWidth = borderWidth
         self.backgroundColor = backgroundColor
-        cornerRadius = corderRadius
+        self.cornerRadius = cornerRadius
         setTitleColor(textColor, for: .normal)
         titleLabel?.font = font
-        if let icon = icon?.resized(to: CGSize(width: 24, height: 24)) {
+        if let icon = icon?.resized(to: CGSize(width: iconWidth, height: iconHeight)) {
             semanticContentAttribute = .forceRightToLeft
             setImage(icon.withRenderingMode(.alwaysTemplate), for: .normal)
             tintColor = tint
