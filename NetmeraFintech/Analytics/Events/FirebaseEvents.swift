@@ -2,7 +2,8 @@
 //  FirebaseEvents.swift
 //  NetmeraFintech
 //
-//  Created by InitialCode on 17.07.2023.
+//  Copyright (c) 2023 Netmera.
+//  @author Initial Code on 17.07.2023.
 //
 
 import FirebaseAnalytics

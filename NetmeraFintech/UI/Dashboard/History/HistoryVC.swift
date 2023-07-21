@@ -2,7 +2,8 @@
 //  HistoryVC.swift
 //  NetmeraFintech
 //
-//  Created by InitialCode on 18.07.2023.
+//  Copyright (c) 2023 Netmera.
+//  @author Initial Code on 18.07.2023.
 //
 
 import UIKit

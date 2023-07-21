@@ -2,7 +2,8 @@
 //  UIView.swift
 //  NetmeraFintech
 //
-//  Created by InitialCode on 13.07.2023.
+//  Copyright (c) 2023 Netmera.
+//  @author Initial Code on 13.07.2023.
 //
 
 import UIKit
@@ -45,9 +46,9 @@ class ClickListener: UITapGestureRecognizer {
 
     @IBInspectable var shadow: CGFloat {
         set {
-            layer.shadowColor = UIColor.gray.cgColor
+            layer.shadowColor = UIColor.black.cgColor
             layer.shadowOffset = CGSize(width: 0, height: newValue)
-            layer.shadowOpacity = 0.5
+            layer.shadowOpacity = 0.1
             layer.shadowRadius = newValue
             clipsToBounds = false
         }

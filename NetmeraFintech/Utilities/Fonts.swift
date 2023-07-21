@@ -2,7 +2,8 @@
 //  Fonts.swift
 //  NetmeraFintech
 //
-//  Created by InitialCode on 13.07.2023.
+//  Copyright (c) 2023 Netmera.
+//  @author Initial Code on 13.07.2023.
 //
 
 import UIKit
