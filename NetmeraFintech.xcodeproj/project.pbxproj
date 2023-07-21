@@ -42,7 +42,6 @@
 		1C785CBE2A65565200A5A8DA /* FirebaseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */; };
 		1C785CC02A65644900A5A8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */; };
 		1CAF3F702A68272700635809 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F6F2A68272700635809 /* Transaction.swift */; };
-		1CAF3F722A682EAA00635809 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F712A682EAA00635809 /* Double.swift */; };
 		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
 		1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */; };
 		1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */; };
@@ -113,7 +112,6 @@
 		1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEvents.swift; sourceTree = "<group>"; };
 		1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CAF3F6F2A68272700635809 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		1CAF3F712A682EAA00635809 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraHelper.swift; sourceTree = "<group>"; };
 		1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsProtocol.swift; sourceTree = "<group>"; };
@@ -320,7 +318,6 @@
 				1C2E0C082A604D1100CBC784 /* UIView.swift */,
 				1C2E0C0A2A604FC800CBC784 /* UIImage.swift */,
 				1C785CBB2A65549000A5A8DA /* UIViewController.swift */,
-				1CAF3F712A682EAA00635809 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -559,7 +556,6 @@
 				1CEC24AC2A61947600AB937A /* SearchForPayeesEvent.swift in Sources */,
 				1C26F9692A696E5F00634EBF /* UserDefaultsHelper.swift in Sources */,
 				1CEC249C2A618DB200AB937A /* GetStartedEvent.swift in Sources */,
-				1CAF3F722A682EAA00635809 /* Double.swift in Sources */,
 				1CEC24942A618D8B00AB937A /* ContactsEvent.swift in Sources */,
 				1CEC24A22A61944D00AB937A /* PaymentDetailEvent.swift in Sources */,
 				1CEC24A42A61945600AB937A /* PaymentTransferEvent.swift in Sources */,

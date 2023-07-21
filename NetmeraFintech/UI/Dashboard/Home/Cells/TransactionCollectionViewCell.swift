@@ -28,10 +28,10 @@ class TransactionCollectionViewCell: UICollectionViewCell {
         transactionType.text = transaction.type.description
         transactionImageContainer.backgroundColor = color
         if transaction.amount > 0 {
-            transactionAmount.text = String(format: "+$%0.2f", transaction.amount.positiveValue())
+            transactionAmount.text = String(format: "+$%0.2f", abs(transaction.amount))
             transactionAmount.textColor = Color.green
         } else {
-            transactionAmount.text = String(format: "$%0.2f", transaction.amount.positiveValue())
+            transactionAmount.text = String(format: "$%0.2f", abs(transaction.amount))
             transactionAmount.textColor = UIColor.black
         }
     }
