@@ -76,11 +76,13 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == transactionsCollectionView {
-            return TransactionCollectionViewCell.create(collectionView: collectionView, indexPath: indexPath,
+            return TransactionCollectionViewCell.create(collectionView: collectionView,
+                                                        indexPath: indexPath,
                                                         transaction: viewModel.transactions[indexPath.row])
         }
 
-        return CardCollectionViewCell.create(collectionView: collectionView, indexPath: indexPath,
+        return CardCollectionViewCell.create(collectionView: collectionView,
+                                             indexPath: indexPath,
                                              image: UIImage(named: viewModel.cards[indexPath.row].imageName)!)
     }
 
