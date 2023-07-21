@@ -22,11 +22,21 @@ class TransactionCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    func setup(transaction: Transaction, color: UIColor) {
+    public static func create(collectionView: UICollectionView,
+                              indexPath: IndexPath,
+                              transaction: Transaction) -> TransactionCollectionViewCell
+    {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TransactionCollectionViewCell.identifier,
+                                                      for: indexPath) as! TransactionCollectionViewCell
+        cell.setup(transaction: transaction)
+        return cell
+    }
+
+    private func setup(transaction: Transaction) {
         transactionImage.image = UIImage(named: transaction.imageName)
         transactionTitle.text = transaction.title
         transactionType.text = transaction.type.description
-        transactionImageContainer.backgroundColor = color
+        transactionImageContainer.backgroundColor = transaction.color
         if transaction.amount > 0 {
             transactionAmount.text = String(format: "+$%0.2f", abs(transaction.amount))
             transactionAmount.textColor = Color.green

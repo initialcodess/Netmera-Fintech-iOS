@@ -14,7 +14,7 @@ class UserDefaultsHelper {
         UserDefaults.standard.set(value, forKey: EMAIL_KEY)
     }
 
-    public static func email() -> String? {
+    public static var email: String? {
         return UserDefaults.standard.object(forKey: EMAIL_KEY) as? String
     }
 }

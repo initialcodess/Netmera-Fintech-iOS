@@ -76,15 +76,12 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == transactionsCollectionView {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TransactionCollectionViewCell.identifier, for: indexPath) as! TransactionCollectionViewCell
-            cell.setup(transaction: viewModel.transactions[indexPath.row], color: viewModel.colors[indexPath.row])
-            return cell
+            return TransactionCollectionViewCell.create(collectionView: collectionView, indexPath: indexPath,
+                                                        transaction: viewModel.transactions[indexPath.row])
         }
 
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CardCollectionViewCell.identifier, for: indexPath) as! CardCollectionViewCell
-
-        cell.setImage(image: UIImage(named: viewModel.cards[indexPath.row].imageName)!)
-        return cell
+        return CardCollectionViewCell.create(collectionView: collectionView, indexPath: indexPath,
+                                             image: UIImage(named: viewModel.cards[indexPath.row].imageName)!)
     }
 
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {

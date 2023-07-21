@@ -18,7 +18,13 @@ class CardCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    func setImage(image: UIImage) {
+    public static func create(collectionView: UICollectionView, indexPath: IndexPath, image: UIImage) -> CardCollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CardCollectionViewCell.identifier, for: indexPath) as! CardCollectionViewCell
+        cell.setImage(image: image)
+        return cell
+    }
+
+    private func setImage(image: UIImage) {
         cardImageView.image = image
     }
 }

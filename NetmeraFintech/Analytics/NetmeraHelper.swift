@@ -24,7 +24,7 @@ class NetmeraHelper {
     }
 
     public static func updateUser(user: ImpactFintechUser) {
-        var netmeraUser = NMImpactFintechUser()
+        let netmeraUser = NMImpactFintechUser()
         if let userName = user.userName {
             netmeraUser.name = userName
         }

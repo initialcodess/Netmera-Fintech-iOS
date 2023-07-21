@@ -25,7 +25,7 @@ class OnboardingVC: UIViewController {
         signInButton.addTarget(self, action: #selector(signInButtonClicked), for: .touchUpInside)
         getStartedButton.addTarget(self, action: #selector(getStartedButtonClicked), for: .touchUpInside)
 
-        if let email = UserDefaultsHelper.email() {
+        if let email = UserDefaultsHelper.email {
             emailTextField.text = email
         }
 
