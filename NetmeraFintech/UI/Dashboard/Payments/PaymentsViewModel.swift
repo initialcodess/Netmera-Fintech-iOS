@@ -16,4 +16,34 @@ class PaymentsViewModel {
         Contact(id: 1, name: "Alfredo Johnson", image: Color.purple.createImage()),
         Contact(id: 2, name: "Charlie Smith", image: Color.orange.createImage()),
     ]
+
+    func sendContactsEvent() {
+        NetmeraEvents.contactsEvent()
+        FirebaseEvents.contactsEvent()
+    }
+
+    func sendPaymentTransferEvent(contact: Contact) {
+        NetmeraEvents.paymentTransferEvent(receiver: contact.name)
+        FirebaseEvents.paymentTransferEvent(receiver: contact.name)
+    }
+
+    func sendNearbyEvent() {
+        NetmeraEvents.nearbyEvent()
+        FirebaseEvents.nearbyEvent()
+    }
+
+    func sendPaySomeoneEvent() {
+        NetmeraEvents.paySomeoneEvent()
+        FirebaseEvents.paySomeoneEvent()
+    }
+
+    func sendRequestMoneyEvent() {
+        NetmeraEvents.requestMoneyEvent()
+        FirebaseEvents.requestMoneyEvent()
+    }
+
+    func sendSearchEvent() {
+        NetmeraEvents.searchForPayeesEvent()
+        FirebaseEvents.searchForPayeesEvent()
+    }
 }

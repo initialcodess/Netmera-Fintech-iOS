@@ -682,7 +682,11 @@ with Impact</string>
                     <tabBarItem key="tabBarItem" title="Payments" image="Payments" id="c9E-g4-9bq"/>
                     <connections>
                         <outlet property="contactsCollectionView" destination="x5x-mY-Oia" id="Eu6-Nx-qd2"/>
+                        <outlet property="nearbyView" destination="gCH-Or-5cb" id="iup-HS-oLQ"/>
                         <outlet property="payCollectionView" destination="Vlk-k8-wbD" id="xQR-Hz-IX0"/>
+                        <outlet property="paySomeoneView" destination="O2V-jc-xxZ" id="60n-vK-p5L"/>
+                        <outlet property="requestMoneyView" destination="owC-WN-hjV" id="3aG-Su-GUB"/>
+                        <outlet property="searchView" destination="Yjo-li-L5e" id="eti-eP-LtV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7b0-YB-CAQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
