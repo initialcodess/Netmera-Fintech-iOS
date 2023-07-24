@@ -1,10 +1,5 @@
-//
-//  AppDelegate.swift
-//  NetmeraFintech
-//
 //  Copyright (c) 2023 Netmera.
-//  @author Initial Code on 13.07.2023.
-//
+//  @author Initial Code
 
 import FirebaseCore
 import IQKeyboardManagerSwift

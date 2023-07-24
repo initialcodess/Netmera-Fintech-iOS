@@ -1,10 +1,5 @@
-//
-//  CardSettingsEvent.swift
-//  NetmeraFintech
-//
 //  Copyright (c) 2023 Netmera.
-//  @author Initial Code on 14.07.2023.
-//
+//  @author Initial Code
 
 import NetmeraCore
 
