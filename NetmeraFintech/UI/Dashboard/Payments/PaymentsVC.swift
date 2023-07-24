@@ -15,7 +15,7 @@ class PaymentsVC: UIViewController {
         contactsCollectionView.delegate = self
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(
-            width: contactsCollectionView.frame.width - 32,
+            width: contactsCollectionView.frame.width - 40,
             height: 52
         )
         contactsCollectionView.collectionViewLayout = layout
