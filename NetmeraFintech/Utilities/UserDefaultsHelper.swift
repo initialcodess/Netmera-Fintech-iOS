@@ -1,10 +1,5 @@
-//
-//  UserDefaultsHelper.swift
-//  NetmeraFintech
-//
 //  Copyright (c) 2023 Netmera.
-//  @author Initial Code on 20.07.2023.
-//
+//  @author Initial Code
 
 import Foundation
 

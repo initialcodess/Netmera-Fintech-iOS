@@ -21,7 +21,7 @@ target 'NetmeraFintech' do
   # Firebase Pods
   pod 'FirebaseAnalytics'
   
-  pod 'SwiftMessages'
+  pod "ToastViewSwift"
   pod "CenteredCollectionView"
   
   post_install do |installer|

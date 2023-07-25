@@ -13,6 +13,7 @@
 		1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916112A66BA48006FC3B4 /* ExitVC.swift */; };
 		1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */; };
 		1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */; };
+		1C20FE3D2A6E825C0061A48B /* ContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20FE3C2A6E825C0061A48B /* ContactCollectionViewCell.swift */; };
 		1C26F9672A69347B00634EBF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26F9662A69347B00634EBF /* HomeViewModel.swift */; };
 		1C26F9692A696E5F00634EBF /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */; };
 		1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2928782A6807080081E587 /* CardCollectionViewCell.swift */; };
@@ -43,6 +44,9 @@
 		1C785CC02A65644900A5A8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */; };
 		1CAF3F702A68272700635809 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F6F2A68272700635809 /* Transaction.swift */; };
 		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
+		1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */; };
+		1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */; };
+		1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41482A6ABAA6006F7703 /* Contact.swift */; };
 		1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */; };
 		1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */; };
 		1CEC24872A618BB800AB937A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24862A618BB800AB937A /* Card.swift */; };
@@ -81,6 +85,7 @@
 		1C0916112A66BA48006FC3B4 /* ExitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitVC.swift; sourceTree = "<group>"; };
 		1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsVC.swift; sourceTree = "<group>"; };
 		1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarVC.swift; sourceTree = "<group>"; };
+		1C20FE3C2A6E825C0061A48B /* ContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C26F9662A69347B00634EBF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 		1C2928782A6807080081E587 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -113,6 +118,9 @@
 		1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CAF3F6F2A68272700635809 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
+		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraHelper.swift; sourceTree = "<group>"; };
 		1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsProtocol.swift; sourceTree = "<group>"; };
 		1CEC24862A618BB800AB937A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -182,7 +190,9 @@
 		1C0916072A66B800006FC3B4 /* Payments */ = {
 			isa = PBXGroup;
 			children = (
+				1CDE41422A6AB9A0006F7703 /* Cells */,
 				1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */,
+				1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */,
 			);
 			path = Payments;
 			sourceTree = "<group>";
@@ -322,6 +332,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		1CDE41422A6AB9A0006F7703 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */,
+				1C20FE3C2A6E825C0061A48B /* ContactCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1CEC247E2A617FE200AB937A /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +368,7 @@
 				1CEC24882A618BFB00AB937A /* ImpactFintechUser.swift */,
 				1CEC24B72A61A39300AB937A /* NMFintechUser.swift */,
 				1CAF3F6F2A68272700635809 /* Transaction.swift */,
+				1CDE41482A6ABAA6006F7703 /* Contact.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -572,14 +592,17 @@
 				1C29287F2A6826660081E587 /* TransactionCollectionViewCell.swift in Sources */,
 				1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */,
 				1CEC24962A618D9800AB937A /* ContactUsForSupportEvent.swift in Sources */,
+				1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */,
 				1CEC24892A618BFB00AB937A /* ImpactFintechUser.swift in Sources */,
 				1CAF3F742A682F1A00635809 /* Colors.swift in Sources */,
+				1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */,
 				1C2E0C0B2A604FC800CBC784 /* UIImage.swift in Sources */,
 				1C785CBC2A65549000A5A8DA /* UIViewController.swift in Sources */,
 				1C26F9672A69347B00634EBF /* HomeViewModel.swift in Sources */,
 				1CEC248E2A618D6C00AB937A /* AppSettingsEvent.swift in Sources */,
 				1CEC24B22A61948D00AB937A /* SignOutEvent.swift in Sources */,
 				1CEC24A02A61944400AB937A /* NearbyEvent.swift in Sources */,
+				1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */,
 				1CEC24B02A61948500AB937A /* SignInEvent.swift in Sources */,
 				1CEC248C2A618D6000AB937A /* AddNotesEvent.swift in Sources */,
 				1CEC24B42A61949400AB937A /* SomethingWrongEvent.swift in Sources */,
@@ -592,6 +615,7 @@
 				1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */,
 				1C2E0BEA2A60297100CBC784 /* OnboardingViewModel.swift in Sources */,
 				1CEC24902A618D7700AB937A /* CardSettingsEvent.swift in Sources */,
+				1C20FE3D2A6E825C0061A48B /* ContactCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

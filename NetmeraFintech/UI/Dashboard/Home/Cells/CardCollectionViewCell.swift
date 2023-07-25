@@ -1,10 +1,5 @@
-//
-//  CardCollectionViewCell.swift
-//  NetmeraFintech
-//
 //  Copyright (c) 2023 Netmera.
-//  @author Initial Code on 19.07.2023.
-//
+//  @author Initial Code
 
 import UIKit
 
@@ -21,11 +16,7 @@ class CardCollectionViewCell: UICollectionViewCell {
 
     public static func create(collectionView: UICollectionView, indexPath: IndexPath, image: UIImage) -> CardCollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CardCollectionViewCell.identifier, for: indexPath) as! CardCollectionViewCell
-        cell.setImage(image: image)
+        cell.cardImageView.image = image
         return cell
-    }
-
-    private func setImage(image: UIImage) {
-        cardImageView.image = image
     }
 }

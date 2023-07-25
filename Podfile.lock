@@ -95,10 +95,8 @@ PODS:
   - NetmeraNotificationInbox (4.0.0):
     - NetmeraNotificationCore (= 4.0.0)
   - PromisesObjC (2.2.0)
-  - SwiftMessages (9.0.6):
-    - SwiftMessages/App (= 9.0.6)
-  - SwiftMessages/App (9.0.6)
   - Swinject (2.8.3)
+  - ToastViewSwift (1.3.2)
 
 DEPENDENCIES:
   - CenteredCollectionView
@@ -113,7 +111,7 @@ DEPENDENCIES:
   - NetmeraNotification (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationCore (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationInbox (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
-  - SwiftMessages
+  - ToastViewSwift
 
 SPEC REPOS:
   trunk:
@@ -128,8 +126,8 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - nanopb
     - PromisesObjC
-    - SwiftMessages
     - Swinject
+    - ToastViewSwift
 
 EXTERNAL SOURCES:
   NetmeraAdvertisingId:
@@ -210,9 +208,9 @@ SPEC CHECKSUMS:
   NetmeraNotificationCore: 7826cb0628023db401e02f2b1eb1f37475107572
   NetmeraNotificationInbox: 3c8aac197856b6df50cb8dbd17b659b362dae58e
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
-  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+  ToastViewSwift: dee6680343e0e3bd978000da9af1c14917d437c4
 
-PODFILE CHECKSUM: a830728865496e4e5d479640a471f310f91762b4
+PODFILE CHECKSUM: 64c3c5801bc838fbc26f2e53a639a6c6b45e29f8
 
 COCOAPODS: 1.12.1

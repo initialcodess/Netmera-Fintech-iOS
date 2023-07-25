@@ -1,10 +1,5 @@
-//
-//  UIColor.swift
-//  NetmeraFintech
-//
 //  Copyright (c) 2023 Netmera.
-//  @author Initial Code on 13.07.2023.
-//
+//  @author Initial Code
 
 import UIKit
 
@@ -15,5 +10,15 @@ extension UIColor {
         let blue = Double(hex & 0xFF) / 255.0
 
         self.init(red: red, green: green, blue: blue, alpha: alpha)
+    }
+
+    func createImage() -> UIImage? {
+        let rect = CGRect(x: 0, y: 0, width: 36, height: 36)
+        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0)
+        setFill()
+        UIRectFill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
     }
 }
