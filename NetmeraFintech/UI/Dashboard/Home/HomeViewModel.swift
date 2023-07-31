@@ -5,9 +5,9 @@ import Foundation
 
 class HomeViewModel {
     let cards = [
-        Card(lastFourDigits: "2183", imageName: "Card_1"),
-        Card(lastFourDigits: "5569", imageName: "Card_2"),
-        Card(lastFourDigits: "8530", imageName: "Card_3"),
+        Card(cardId: 1, lastFourDigits: "2183", imageName: "Card_1"),
+        Card(cardId: 2, lastFourDigits: "5569", imageName: "Card_2"),
+        Card(cardId: 3, lastFourDigits: "8530", imageName: "Card_3"),
     ]
     let transactions = [
         Transaction(imageName: "Shopping", title: "Impact Music App Premium", type: TransactionType.expense, amount: -9.99, color: Color.blue),
