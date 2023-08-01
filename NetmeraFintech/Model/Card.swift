@@ -8,7 +8,7 @@ struct Card {
     var lastFourDigits: String
     var imageName: String
 
-    init(cardId: Int = 0, lastFourDigits: String, imageName: String) {
+    init(cardId: Int, lastFourDigits: String, imageName: String) {
         self.cardId = cardId
         self.lastFourDigits = lastFourDigits
         self.imageName = imageName

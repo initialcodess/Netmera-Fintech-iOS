@@ -16,6 +16,7 @@ class HomeVC: UIViewController {
 
     let cellPercentWidth: CGFloat = 0.7
     var cardsCollectionViewFlowLayout: CenteredCollectionViewFlowLayout!
+    private var selectedCard: Card!
 
     private func setupUI() {
         manageButton.filled(cornerRadius: 12, font: Fonts.nunitoSemiBold(size: 13), tint: UIColor.white, iconWidth: 6,
@@ -54,9 +55,16 @@ class HomeVC: UIViewController {
             self.viewModel.sendSeeAllEvent()
             self.showEventDialog()
         }
+        selectedCard = viewModel.cards.first!
     }
 
     @objc func manageButtonClicked() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "ManageCardVC") as! ManageCardVC
+        viewController.modalPresentationStyle = .overFullScreen
+        viewController.modalTransitionStyle = .crossDissolve
+        viewController.card = selectedCard
+        present(viewController, animated: true)
         viewModel.sendManageCardEvent(card: viewModel.cards[cardsCollectionViewFlowLayout.currentCenteredPage!])
         showEventDialog()
     }
@@ -85,6 +93,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         if cardsCollectionView === scrollView {
             selectedCardNumber.text = "•••• " + viewModel.cards[cardsCollectionViewFlowLayout.currentCenteredPage!].lastFourDigits
+            selectedCard = viewModel.cards[cardsCollectionViewFlowLayout.currentCenteredPage!]
         }
     }
 
