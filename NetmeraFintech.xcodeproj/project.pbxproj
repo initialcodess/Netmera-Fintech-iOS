@@ -46,8 +46,11 @@
 		1C785CBC2A65549000A5A8DA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C785CBB2A65549000A5A8DA /* UIViewController.swift */; };
 		1C785CBE2A65565200A5A8DA /* FirebaseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */; };
 		1C785CC02A65644900A5A8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */; };
+		1CA82E492A793B750005691C /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA82E482A793B750005691C /* DataRepository.swift */; };
+		1CA82E4B2A7942E00005691C /* TransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA82E4A2A7942E00005691C /* TransactionDetailViewModel.swift */; };
 		1CAF3F702A68272700635809 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F6F2A68272700635809 /* Transaction.swift */; };
 		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
+		1CC06AD72A71321C00742E19 /* TransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */; };
 		1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */; };
 		1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */; };
 		1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41482A6ABAA6006F7703 /* Contact.swift */; };
@@ -124,8 +127,11 @@
 		1C785CBB2A65549000A5A8DA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		1C785CBD2A65565200A5A8DA /* FirebaseEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEvents.swift; sourceTree = "<group>"; };
 		1C785CBF2A65644900A5A8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CA82E482A793B750005691C /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		1CA82E4A2A7942E00005691C /* TransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewModel.swift; sourceTree = "<group>"; };
 		1CAF3F6F2A68272700635809 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
 		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
 		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 		1C0916052A66B7DE006FC3B4 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				1CC06AD52A71320500742E19 /* TransactionDetail */,
 				1C6556142A70058900AF04B0 /* ManageCard */,
 				1C0916092A66B825006FC3B4 /* Analytics */,
 				1C09160A2A66B82C006FC3B4 /* Exit */,
@@ -325,6 +332,7 @@
 				1C2E0C062A604C4100CBC784 /* Fonts.swift */,
 				1CAF3F732A682F1A00635809 /* Colors.swift */,
 				1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */,
+				1CA82E482A793B750005691C /* DataRepository.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -357,6 +365,15 @@
 				1C6556182A70098E00AF04B0 /* ManageOptionCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		1CC06AD52A71320500742E19 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */,
+				1CA82E4A2A7942E00005691C /* TransactionDetailViewModel.swift */,
+			);
+			path = TransactionDetail;
 			sourceTree = "<group>";
 		};
 		1CDE41422A6AB9A0006F7703 /* Cells */ = {
@@ -611,6 +628,8 @@
 				1C2E0C032A604B6700CBC784 /* UIButton.swift in Sources */,
 				1CEC24AE2A61947D00AB937A /* SeeAllEvent.swift in Sources */,
 				1CEC24B62A61A24B00AB937A /* NetmeraEvents.swift in Sources */,
+				1CA82E492A793B750005691C /* DataRepository.swift in Sources */,
+				1CC06AD72A71321C00742E19 /* TransactionDetailVC.swift in Sources */,
 				1CEC24B82A61A39300AB937A /* NMFintechUser.swift in Sources */,
 				1C2E0C052A604BE200CBC784 /* UIColor.swift in Sources */,
 				1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */,
@@ -622,6 +641,7 @@
 				1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */,
 				1CEC24962A618D9800AB937A /* ContactUsForSupportEvent.swift in Sources */,
 				1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */,
+				1CA82E4B2A7942E00005691C /* TransactionDetailViewModel.swift in Sources */,
 				1CEC24892A618BFB00AB937A /* ImpactFintechUser.swift in Sources */,
 				1CAF3F742A682F1A00635809 /* Colors.swift in Sources */,
 				1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */,

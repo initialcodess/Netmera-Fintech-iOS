@@ -30,15 +30,10 @@ class TransactionCollectionViewCell: UICollectionViewCell {
 
     private func setup(transaction: Transaction) {
         transactionImage.image = UIImage(named: transaction.imageName)
-        transactionTitle.text = transaction.title
+        transactionTitle.text = transaction.name
         transactionType.text = transaction.type.description
-        transactionImageContainer.backgroundColor = transaction.color
-        if transaction.amount > 0 {
-            transactionAmount.text = String(format: "+$%0.2f", abs(transaction.amount))
-            transactionAmount.textColor = Color.green
-        } else {
-            transactionAmount.text = String(format: "$%0.2f", abs(transaction.amount))
-            transactionAmount.textColor = UIColor.black
-        }
+        transactionImageContainer.backgroundColor = transaction.iconContainerColor
+        transactionAmount.textColor = transaction.priceColor
+        transactionAmount.text = transaction.price
     }
 }

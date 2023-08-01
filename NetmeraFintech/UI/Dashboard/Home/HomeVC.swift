@@ -99,6 +99,12 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == transactionsCollectionView {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "TransactionDetailVC") as! TransactionDetailVC
+            viewController.modalPresentationStyle = .overFullScreen
+            viewController.modalTransitionStyle = .crossDissolve
+            viewController.transaction = viewModel.transactions[indexPath.row]
+            present(viewController, animated: true)
             viewModel.sendPaymentDetailEvent(index: indexPath.row)
             showEventDialog()
         }
