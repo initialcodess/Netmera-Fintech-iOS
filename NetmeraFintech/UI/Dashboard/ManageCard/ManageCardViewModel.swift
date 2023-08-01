@@ -7,35 +7,35 @@ class ManageCardViewModel {
     private var card: Card?
 
     enum ManageOptions {
-        case FreezeCard
-        case ForgotPin
-        case Settings
-        case Support
+        case freezeCard
+        case forgotPin
+        case settings
+        case support
 
         var index: Int {
             switch self {
-            case .FreezeCard: return 0
-            case .ForgotPin: return 1
-            case .Settings: return 2
-            case .Support: return 3
+            case .freezeCard: return 0
+            case .forgotPin: return 1
+            case .settings: return 2
+            case .support: return 3
             }
         }
     }
 
     let options = [
-        ManageOption(index: ManageOptions.FreezeCard.index,
+        ManageOption(index: ManageOptions.freezeCard.index,
                      title: "Freeze card",
                      description: "Lost or stolen? Freeze it here",
                      color: Color.pink),
-        ManageOption(index: ManageOptions.ForgotPin.index,
+        ManageOption(index: ManageOptions.forgotPin.index,
                      title: "Forgot your PIN?",
                      description: "Lost or stolen? Freeze it here",
                      color: Color.purple),
-        ManageOption(index: ManageOptions.Settings.index,
+        ManageOption(index: ManageOptions.settings.index,
                      title: "Settings",
                      description: "Terminate and more",
                      color: Color.blue),
-        ManageOption(index: ManageOptions.Support.index,
+        ManageOption(index: ManageOptions.support.index,
                      title: "Support",
                      description: "Contact us about your card",
                      color: Color.green),
@@ -47,10 +47,10 @@ class ManageCardViewModel {
 
     func onOptionClick(index: Int) {
         switch index {
-        case ManageOptions.FreezeCard.index: sendFreezeCardEvent()
-        case ManageOptions.ForgotPin.index: sendForgotPinEvent()
-        case ManageOptions.Settings.index: sendCardSettingsEvent()
-        case ManageOptions.Support.index: sendSupportEvent()
+        case ManageOptions.freezeCard.index: sendFreezeCardEvent()
+        case ManageOptions.forgotPin.index: sendForgotPinEvent()
+        case ManageOptions.settings.index: sendCardSettingsEvent()
+        case ManageOptions.support.index: sendSupportEvent()
         default: break
         }
     }
