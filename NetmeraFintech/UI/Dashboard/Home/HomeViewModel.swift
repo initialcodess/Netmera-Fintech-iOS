@@ -4,16 +4,8 @@
 import Foundation
 
 class HomeViewModel {
-    let cards = [
-        Card(cardId: 1, lastFourDigits: "2183", imageName: "Card_1"),
-        Card(cardId: 2, lastFourDigits: "5569", imageName: "Card_2"),
-        Card(cardId: 3, lastFourDigits: "8530", imageName: "Card_3"),
-    ]
-    let transactions = [
-        Transaction(imageName: "Shopping", title: "Impact Music App Premium", type: TransactionType.expense, amount: -9.99, color: Color.blue),
-        Transaction(imageName: "Shopping", title: "Salary", type: TransactionType.income, amount: 5384.99, color: Color.green),
-        Transaction(imageName: "Shopping", title: "Electricity", type: TransactionType.expense, amount: -53.99, color: Color.orange),
-    ]
+    let cards = DataRepository.getCards()
+    let transactions = DataRepository.getTransactions()
 
     func sendSeeAllEvent() {
         NetmeraEvents.seeAllEvent()

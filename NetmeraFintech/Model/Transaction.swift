@@ -4,11 +4,17 @@
 import UIKit
 
 struct Transaction {
-    let imageName: String!
-    let title: String!
-    let type: TransactionType!
-    let amount: Double!
-    let color: UIColor!
+    let category: String
+    let imageName: String
+    let iconContainerColor: UIColor
+    let name: String
+    let numberOfPayments: String
+    let price: String
+    let priceColor: UIColor
+    let totalAmount: String
+    let transactionId: Int
+    let transactionNumber: String
+    let type: TransactionType
 }
 
 enum TransactionType {
