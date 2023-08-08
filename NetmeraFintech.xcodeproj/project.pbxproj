@@ -19,6 +19,7 @@
 		1C2928792A6807080081E587 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2928782A6807080081E587 /* CardCollectionViewCell.swift */; };
 		1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */; };
 		1C29287F2A6826660081E587 /* TransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */; };
+		1C2CE65E2A7A47D300D420FD /* SendMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2CE65D2A7A47D300D420FD /* SendMoneyVC.swift */; };
 		1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */; };
 		1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */; };
 		1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E0BD72A601D2E00CBC784 /* OnboardingVC.swift */; };
@@ -54,6 +55,7 @@
 		1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */; };
 		1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */; };
 		1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41482A6ABAA6006F7703 /* Contact.swift */; };
+		1CEAC6D92A812CAD00CD73A7 /* SendMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAC6D82A812CAD00CD73A7 /* SendMoneyViewModel.swift */; };
 		1CEC24802A617FF800AB937A /* NetmeraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */; };
 		1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */; };
 		1CEC24872A618BB800AB937A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24862A618BB800AB937A /* Card.swift */; };
@@ -98,6 +100,7 @@
 		1C2928782A6807080081E587 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C29287C2A68257E0081E587 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
 		1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C2CE65D2A7A47D300D420FD /* SendMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyVC.swift; sourceTree = "<group>"; };
 		1C2E0BD02A601D2E00CBC784 /* NetmeraFintech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraFintech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +138,7 @@
 		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
 		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		1CEAC6D82A812CAD00CD73A7 /* SendMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyViewModel.swift; sourceTree = "<group>"; };
 		1CEC247F2A617FF800AB937A /* NetmeraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraHelper.swift; sourceTree = "<group>"; };
 		1CEC24832A618B6300AB937A /* AppEventsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsProtocol.swift; sourceTree = "<group>"; };
 		1CEC24862A618BB800AB937A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 		1C0916052A66B7DE006FC3B4 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				1C2CE65C2A7A478400D420FD /* SendMoney */,
 				1CC06AD52A71320500742E19 /* TransactionDetail */,
 				1C6556142A70058900AF04B0 /* ManageCard */,
 				1C0916092A66B825006FC3B4 /* Analytics */,
@@ -244,6 +249,15 @@
 				1C29287E2A6826660081E587 /* TransactionCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		1C2CE65C2A7A478400D420FD /* SendMoney */ = {
+			isa = PBXGroup;
+			children = (
+				1C2CE65D2A7A47D300D420FD /* SendMoneyVC.swift */,
+				1CEAC6D82A812CAD00CD73A7 /* SendMoneyViewModel.swift */,
+			);
+			path = SendMoney;
 			sourceTree = "<group>";
 		};
 		1C2E0BC72A601D2E00CBC784 = {
@@ -614,6 +628,7 @@
 				1C09160E2A66B9A0006FC3B4 /* PaymentsVC.swift in Sources */,
 				1C785CBE2A65565200A5A8DA /* FirebaseEvents.swift in Sources */,
 				1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */,
+				1C2CE65E2A7A47D300D420FD /* SendMoneyVC.swift in Sources */,
 				1C2E0C092A604D1100CBC784 /* UIView.swift in Sources */,
 				1C2E0C072A604C4100CBC784 /* Fonts.swift in Sources */,
 				1CEC24AA2A61946C00AB937A /* RequestMoneyEvent.swift in Sources */,
@@ -661,6 +676,7 @@
 				1CEC24A62A61945D00AB937A /* PaySomeoneEvent.swift in Sources */,
 				1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */,
 				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
+				1CEAC6D92A812CAD00CD73A7 /* SendMoneyViewModel.swift in Sources */,
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,
 				1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */,

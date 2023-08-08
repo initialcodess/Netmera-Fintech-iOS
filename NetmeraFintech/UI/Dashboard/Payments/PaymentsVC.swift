@@ -22,6 +22,7 @@ class PaymentsVC: UIViewController {
             width: contactsCollectionView.frame.width - 40,
             height: 52
         )
+
         contactsCollectionView.collectionViewLayout = layout
         payCollectionView.dataSource = self
         payCollectionView.delegate = self
@@ -48,7 +49,7 @@ class PaymentsVC: UIViewController {
     }
 }
 
-extension PaymentsVC: UICollectionViewDelegate, UICollectionViewDataSource {
+extension PaymentsVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection _: Int) -> Int {
         if collectionView == contactsCollectionView {
             return viewModel.contacts.count
@@ -67,14 +68,20 @@ extension PaymentsVC: UICollectionViewDelegate, UICollectionViewDataSource {
                                             indexPath: indexPath,
                                             contact: viewModel.payContacts[indexPath.row])
     }
+}
 
+extension PaymentsVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("index: \(indexPath.row)")
         if collectionView == contactsCollectionView {
             viewModel.sendContactsEvent()
             showEventDialog()
         } else if collectionView == payCollectionView {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "SendMoneyVC") as! SendMoneyVC
+            viewController.contact = viewModel.payContacts[indexPath.row]
+            present(viewController, animated: true)
             viewModel.sendPaymentTransferEvent(contact: viewModel.payContacts[indexPath.row])
-            // TODO: NAVIGATE TO PAY SCREEN
             showEventDialog()
         }
     }

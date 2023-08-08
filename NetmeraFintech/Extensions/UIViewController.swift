@@ -15,6 +15,10 @@ extension UIViewController {
     }
 
     func showEventDialog() {
+        showToastMessage(message: "Event was Sent")
+    }
+
+    func showToastMessage(message: String) {
         let config = ToastConfiguration(
             direction: .bottom,
             autoHide: true,
@@ -24,7 +28,7 @@ extension UIViewController {
             enteringAnimation: .fade(alphaValue: 0.5),
             exitingAnimation: .fade(alphaValue: 0.0)
         )
-        let toast = Toast.text("Event was Sent", config: config)
+        let toast = Toast.text(message, config: config)
         toast.show()
     }
 }
