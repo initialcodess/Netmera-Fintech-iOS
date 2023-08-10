@@ -49,4 +49,21 @@ class DataRepository {
             Card(cardId: 3, lastFourDigits: "8530", imageName: "Card_3"),
         ]
     }
+
+    public static func getContacts() -> [Contact] {
+        return [
+            Contact(id: 1, name: "Alfredo Johnson", lastName: "", lastFourDigit: "", image: Color.purple.createImage()),
+            Contact(id: 2, name: "Charlie Smith", lastName: "", lastFourDigit: "", image: Color.orange.createImage()),
+        ]
+    }
+
+    public static func getPayContacts() -> [Contact] {
+        return [
+            Contact(id: 1, name: "Sam", lastName: "Paul", lastFourDigit: "9373", image: UIImage(named: "Avatar")),
+            Contact(id: 2, name: "Sarah", lastName: "Jones", lastFourDigit: "4163", image: UIImage(named: "Avatar_1")),
+            Contact(id: 3, name: "Adam", lastName: "Henrique", lastFourDigit: "0956", image: UIImage(named: "Avatar_2")),
+            Contact(id: 4, name: "Cynthia", lastName: "Clyburn", lastFourDigit: "4592", image: UIImage(named: "Avatar_3")),
+            Contact(id: 5, name: "Daniel", lastName: "James", lastFourDigit: "9932", image: nil),
+        ]
+    }
 }
