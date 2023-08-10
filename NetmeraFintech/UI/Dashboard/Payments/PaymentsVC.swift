@@ -72,7 +72,6 @@ extension PaymentsVC: UICollectionViewDataSource {
 
 extension PaymentsVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("index: \(indexPath.row)")
         if collectionView == contactsCollectionView {
             viewModel.sendContactsEvent()
             showEventDialog()
