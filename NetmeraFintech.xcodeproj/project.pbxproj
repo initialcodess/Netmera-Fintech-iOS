@@ -52,6 +52,7 @@
 		1CAF3F702A68272700635809 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F6F2A68272700635809 /* Transaction.swift */; };
 		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
 		1CC06AD72A71321C00742E19 /* TransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */; };
+		1CD87E072A850A5800163085 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD87E062A850A5800163085 /* Navigation.swift */; };
 		1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */; };
 		1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */; };
 		1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41482A6ABAA6006F7703 /* Contact.swift */; };
@@ -135,6 +136,7 @@
 		1CAF3F6F2A68272700635809 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
+		1CD87E062A850A5800163085 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
 		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				1C2E0BEB2A602D0600CBC784 /* Resources */,
 				1C2E0BE72A60289A00CBC784 /* UI */,
 				1C2E0BD32A601D2E00CBC784 /* AppDelegate.swift */,
+				1CD87E062A850A5800163085 /* Navigation.swift */,
 				1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */,
 				1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */,
 				1C2E0BE12A601D2F00CBC784 /* Info.plist */,
@@ -680,6 +683,7 @@
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,
 				1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */,
+				1CD87E072A850A5800163085 /* Navigation.swift in Sources */,
 				1C2E0BEA2A60297100CBC784 /* OnboardingViewModel.swift in Sources */,
 				1CEC24902A618D7700AB937A /* CardSettingsEvent.swift in Sources */,
 				1C20FE3D2A6E825C0061A48B /* ContactCollectionViewCell.swift in Sources */,

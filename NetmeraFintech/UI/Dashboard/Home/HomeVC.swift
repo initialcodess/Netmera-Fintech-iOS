@@ -59,12 +59,7 @@ class HomeVC: UIViewController {
     }
 
     @objc func manageButtonClicked() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "ManageCardVC") as! ManageCardVC
-        viewController.modalPresentationStyle = .overFullScreen
-        viewController.modalTransitionStyle = .crossDissolve
-        viewController.card = selectedCard
-        present(viewController, animated: true)
+        navigateManageCardVC(card: selectedCard)
         viewModel.sendManageCardEvent(card: viewModel.cards[cardsCollectionViewFlowLayout.currentCenteredPage!])
         showEventDialog()
     }
@@ -99,12 +94,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == transactionsCollectionView {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let viewController = storyboard.instantiateViewController(withIdentifier: "TransactionDetailVC") as! TransactionDetailVC
-            viewController.modalPresentationStyle = .overFullScreen
-            viewController.modalTransitionStyle = .crossDissolve
-            viewController.transaction = viewModel.transactions[indexPath.row]
-            present(viewController, animated: true)
+            navigateTransactionDetailVC(transaction: viewModel.transactions[indexPath.row])
             viewModel.sendPaymentDetailEvent(index: indexPath.row)
             showEventDialog()
         }

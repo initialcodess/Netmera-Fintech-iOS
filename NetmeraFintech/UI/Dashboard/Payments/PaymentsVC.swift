@@ -77,10 +77,7 @@ extension PaymentsVC: UICollectionViewDelegate {
             viewModel.sendContactsEvent()
             showEventDialog()
         } else if collectionView == payCollectionView {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let viewController = storyboard.instantiateViewController(withIdentifier: "SendMoneyVC") as! SendMoneyVC
-            viewController.contact = viewModel.payContacts[indexPath.row]
-            present(viewController, animated: true)
+            navigateSendMoneyVC(contact: viewModel.payContacts[indexPath.row])
             viewModel.sendPaymentTransferEvent(contact: viewModel.payContacts[indexPath.row])
             showEventDialog()
         }
