@@ -5,8 +5,8 @@ import UIKit
 
 class DeeplinkHandler {
     private static let MANAGE_CARD = "managecard"
-    private static let TRANSACTION_DETAIL = "transactiondetail"
     private static let SEND_MONEY = "sendmoney"
+    private static let TRANSACTION_DETAIL = "transactiondetail"
 
     private static var waitingHandleScreenName: String?
 
