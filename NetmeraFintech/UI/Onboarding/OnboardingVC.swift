@@ -25,13 +25,15 @@ class OnboardingVC: UIViewController {
             emailTextField.text = email
         }
 
-        Netmera.setEnabledPopupPresentation(true)
-        Netmera.setEnabledInAppMessagePresentation(true)
+        NetmeraHelper.enableAdId()
+        NetmeraHelper.enablePopups()
+        NetmeraHelper.enableInAppMessages()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         NetmeraHelper.requestNotificationPermission()
+        DeeplinkHandler.checkIfWaitingHandleExists()
     }
 
     @objc func signInButtonClicked() {

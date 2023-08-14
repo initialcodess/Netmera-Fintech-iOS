@@ -19,6 +19,26 @@ class NetmeraHelper {
         Netmera.requestPushNotificationAuthorization(for: [.alert, .badge, .sound])
     }
 
+    public static func requestLocationPermission() {
+        Netmera.requestLocationAuthorization()
+    }
+
+    public static func requestAdIdPermission() {
+        Netmera.requestAdvertisingAuthorization()
+    }
+
+    public static func enableAdId() {
+        Netmera.setAuthorizedAdvertisingIdentifier(authorized: true)
+    }
+
+    public static func enablePopups() {
+        Netmera.setEnabledPopupPresentation(true)
+    }
+
+    public static func enableInAppMessages() {
+        Netmera.setEnabledInAppMessagePresentation(true)
+    }
+
     public static func updateUser(user: ImpactFintechUser) {
         let netmeraUser = NMImpactFintechUser()
         if let userName = user.userName {

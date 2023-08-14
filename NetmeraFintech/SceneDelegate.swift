@@ -6,11 +6,24 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
-    func scene(_ scene: UIScene, willConnectTo _: UISceneSession, options _: UIScene.ConnectionOptions) {
+    func scene(_ scene: UIScene, willConnectTo _: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        if let url = connectionOptions.urlContexts.first?.url {
+            if let name = url.host {
+                DeeplinkHandler.handle(screenName: name)
+            }
+        }
+    }
+
+    func scene(_: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        if let url = URLContexts.first?.url {
+            if let name = url.host {
+                DeeplinkHandler.handle(screenName: name)
+            }
+        }
     }
 
     func sceneDidDisconnect(_: UIScene) {
@@ -22,6 +35,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_: UIScene) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            NetmeraHelper.requestAdIdPermission()
+        }
         print("sceneDidBecomeActive")
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.

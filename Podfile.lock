@@ -90,6 +90,8 @@ PODS:
     - NetmeraAnalytic (= 4.0.0)
   - NetmeraNotification (4.0.0):
     - NetmeraNotificationCore (= 4.0.0)
+  - NetmeraNotificationContentExtension (4.0.0):
+    - NetmeraNotificationCore (= 4.0.0)
   - NetmeraNotificationCore (4.0.0):
     - NetmeraAnalytic (= 4.0.0)
   - NetmeraNotificationInbox (4.0.0):
@@ -109,6 +111,7 @@ DEPENDENCIES:
   - NetmeraGeofence (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraLocation (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotification (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
+  - NetmeraNotificationContentExtension (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationCore (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - NetmeraNotificationInbox (from `https://github.com/Netmera/swift-sdk`, branch `release/temp`)
   - ToastViewSwift
@@ -151,6 +154,9 @@ EXTERNAL SOURCES:
   NetmeraNotification:
     :branch: release/temp
     :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationContentExtension:
+    :branch: release/temp
+    :git: https://github.com/Netmera/swift-sdk
   NetmeraNotificationCore:
     :branch: release/temp
     :git: https://github.com/Netmera/swift-sdk
@@ -180,6 +186,9 @@ CHECKOUT OPTIONS:
   NetmeraNotification:
     :commit: c76aa76460d256a3c8d583ed20789e977367798f
     :git: https://github.com/Netmera/swift-sdk
+  NetmeraNotificationContentExtension:
+    :commit: c061a8d000e5dad4e1c5b330b051b32f0f58c130
+    :git: https://github.com/Netmera/swift-sdk
   NetmeraNotificationCore:
     :commit: c76aa76460d256a3c8d583ed20789e977367798f
     :git: https://github.com/Netmera/swift-sdk
@@ -205,12 +214,13 @@ SPEC CHECKSUMS:
   NetmeraGeofence: bf8bea6aef4cd59466bc9e3f0a5cc7ccce7fb64f
   NetmeraLocation: 5f05b88bdf39427c9cf21fa0eae4f222f0721f8f
   NetmeraNotification: 2d08ff1d8abc4d0dffbeb0419029a4752a7ac5b1
+  NetmeraNotificationContentExtension: 3a8307d6930f5b85dff70554b1e1800b721a6d22
   NetmeraNotificationCore: 7826cb0628023db401e02f2b1eb1f37475107572
   NetmeraNotificationInbox: 3c8aac197856b6df50cb8dbd17b659b362dae58e
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
   ToastViewSwift: dee6680343e0e3bd978000da9af1c14917d437c4
 
-PODFILE CHECKSUM: 64c3c5801bc838fbc26f2e53a639a6c6b45e29f8
+PODFILE CHECKSUM: 76c3fd20bba7a9aca838f65db13df2cf98cdccbb
 
 COCOAPODS: 1.12.1

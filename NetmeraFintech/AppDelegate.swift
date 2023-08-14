@@ -11,7 +11,7 @@ import NetmeraNotificationInbox
 import UIKit
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
 
@@ -19,7 +19,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         FirebaseApp.configure()
 
+        UNUserNotificationCenter.current().delegate = self
+
         return true
+    }
+
+    // MARK: UNUserNotificationCenterDelegate
+
+    func userNotificationCenter(_: UNUserNotificationCenter,
+                                willPresent _: UNNotification,
+                                withCompletionHandler _: @escaping (UNNotificationPresentationOptions) -> Void)
+    {
+        //
+    }
+
+    func userNotificationCenter(_: UNUserNotificationCenter,
+                                didReceive _: UNNotificationResponse,
+                                withCompletionHandler _: @escaping () -> Void)
+    {
+        //
     }
 
     // MARK: UISceneSession Lifecycle
