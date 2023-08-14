@@ -53,6 +53,7 @@
 		1CAF3F742A682F1A00635809 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF3F732A682F1A00635809 /* Colors.swift */; };
 		1CC06AD72A71321C00742E19 /* TransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */; };
 		1CD87E072A850A5800163085 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD87E062A850A5800163085 /* Navigation.swift */; };
+		1CD87E092A851A3F00163085 /* DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD87E082A851A3F00163085 /* DeeplinkHandler.swift */; };
 		1CDE41442A6AB9AD006F7703 /* PayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */; };
 		1CDE41472A6ABA7F006F7703 /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */; };
 		1CDE41492A6ABAA6006F7703 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE41482A6ABAA6006F7703 /* Contact.swift */; };
@@ -137,6 +138,7 @@
 		1CAF3F732A682F1A00635809 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
 		1CD87E062A850A5800163085 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		1CD87E082A851A3F00163085 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
 		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
 		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				1CAF3F732A682F1A00635809 /* Colors.swift */,
 				1C26F9682A696E5F00634EBF /* UserDefaultsHelper.swift */,
 				1CA82E482A793B750005691C /* DataRepository.swift */,
+				1CD87E082A851A3F00163085 /* DeeplinkHandler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -680,6 +683,7 @@
 				1CEC24842A618B6300AB937A /* AppEventsProtocol.swift in Sources */,
 				1C2E0BD62A601D2E00CBC784 /* SceneDelegate.swift in Sources */,
 				1CEAC6D92A812CAD00CD73A7 /* SendMoneyViewModel.swift in Sources */,
+				1CD87E092A851A3F00163085 /* DeeplinkHandler.swift in Sources */,
 				1CEC24982A618DA000AB937A /* ForgotYourPinEvent.swift in Sources */,
 				1CEC24922A618D8100AB937A /* ChangeAccountEvent.swift in Sources */,
 				1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */,
