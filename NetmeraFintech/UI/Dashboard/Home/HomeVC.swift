@@ -56,6 +56,8 @@ class HomeVC: UIViewController {
             self.showEventDialog()
         }
         selectedCard = viewModel.cards.first!
+
+        NetmeraHelper.requestLocationPermission()
     }
 
     @objc func manageButtonClicked() {
