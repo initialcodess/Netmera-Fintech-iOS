@@ -80,5 +80,6 @@ extension PaymentsVC: UICollectionViewDelegate {
             viewModel.sendPaymentTransferEvent(contact: viewModel.payContacts[indexPath.row])
             showEventDialog()
         }
+        collectionView.deselectItem(at: indexPath, animated: false)
     }
 }
