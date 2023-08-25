@@ -43,8 +43,9 @@ extension ManageCardVC: UICollectionViewDelegate, UICollectionViewDataSource {
                                                      manageOption: viewModel.options[indexPath.row])
     }
 
-    func collectionView(_: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         viewModel.onOptionClick(index: indexPath.row)
         showEventDialog()
+        collectionView.deselectItem(at: indexPath, animated: false)
     }
 }

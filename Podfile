@@ -1,10 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '13.0'
+use_frameworks!
 
 target 'NetmeraFintech' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
   # Pods for NetmeraFintech
   
   # Netmera Pods
@@ -16,7 +15,6 @@ target 'NetmeraFintech' do
   pod "NetmeraAdvertisingId", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraLocation", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraGeofence", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
-  pod "NetmeraNotificationCore", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   pod "NetmeraNotificationInbox", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
   
   # Firebase Pods
@@ -27,8 +25,12 @@ target 'NetmeraFintech' do
   pod 'IQKeyboardManagerSwift'
 end
 
+target 'NotificationService' do
+  # Netmera Pods
+  pod "NetmeraNotificationServiceExtension", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
+end
+
 target 'NotificationViewController' do
-  use_frameworks!
   # Netmera Pods
   pod "NetmeraNotificationContentExtension", :git => "https://github.com/Netmera/swift-sdk", :branch => "release/temp"
 end

@@ -100,5 +100,6 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UIScroll
             viewModel.sendPaymentDetailEvent(index: indexPath.row)
             showEventDialog()
         }
+        collectionView.deselectItem(at: indexPath, animated: false)
     }
 }
