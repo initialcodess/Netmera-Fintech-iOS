@@ -203,6 +203,7 @@
 		1CC06AD62A71321C00742E19 /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
 		1CD87E062A850A5800163085 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		1CD87E082A851A3F00163085 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
+		1CD9F6832A9E0C020032BDA7 /* NetmeraFintech.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = NetmeraFintech.entitlements; path = NetmeraFintech/NetmeraFintech.entitlements; sourceTree = "<group>"; };
 		1CDE41432A6AB9AD006F7703 /* PayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CDE41462A6ABA7F006F7703 /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
 		1CDE41482A6ABAA6006F7703 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -362,6 +363,7 @@
 		1C2E0BC72A601D2E00CBC784 = {
 			isa = PBXGroup;
 			children = (
+				1CD9F6832A9E0C020032BDA7 /* NetmeraFintech.entitlements */,
 				1C2E0BD22A601D2E00CBC784 /* NetmeraFintech */,
 				1C45F0BB2A89AFD0000E8FDD /* NotificationViewController */,
 				1C0DCC862A977F6F0001F4B7 /* NotificationService */,
@@ -1164,14 +1166,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Impact Fintech";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location is used for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used for better user experience";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking is used for better user experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1199,14 +1204,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Impact Fintech";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location is used for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used for better user experience";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking is used for better user experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
