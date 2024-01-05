@@ -1,14 +1,9 @@
-//
-//  UIImage.swift
-//  NetmeraFintech
-//
-//  Created by InitialCode on 13.07.2023.
-//
+//  Copyright (c) 2023 Netmera.
+//  @author Initial Code
 
 import UIKit
 
 extension UIImage {
-
     func resized(to size: CGSize) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
         defer { UIGraphicsEndImageContext() }
