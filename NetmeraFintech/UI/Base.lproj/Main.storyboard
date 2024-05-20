@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -612,7 +613,7 @@ with Impact</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Tst aljsbd ajsb dajbs d" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCF-K7-SgW" userLabel="Contact Name">
-                                                            <rect key="frame" x="51" y="8" width="153.66666666666663" height="40"/>
+                                                            <rect key="frame" x="51" y="8" width="153.66666666666666" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="36" id="0Td-3R-rpp"/>
                                                             </constraints>
@@ -986,7 +987,7 @@ with Impact</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LbA-r3-m3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3381" y="910"/>
+            <point key="canvasLocation" x="3764" y="721"/>
         </scene>
         <!--Transaction DetailVC-->
         <scene sceneID="2ej-t0-NIH">
@@ -1429,7 +1430,7 @@ with Impact</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7H-Op-E59" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3381" y="258"/>
+            <point key="canvasLocation" x="3764" y="18"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="nGK-2o-FGi">
@@ -1957,7 +1958,7 @@ with Impact</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0KX-Me-zdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3378" y="-382"/>
+            <point key="canvasLocation" x="3764" y="-676"/>
         </scene>
         <!--AnalyticsVC-->
         <scene sceneID="D3t-YR-bUX">
@@ -1966,11 +1967,198 @@ with Impact</string>
                     <view key="view" contentMode="scaleToFill" id="LHo-um-mzQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8w-wJ-pDH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbW-rU-K6q">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="56.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdI-y1-PQJ">
+                                                <rect key="frame" x="16" y="8" width="382" height="40.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="34"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="IdI-y1-PQJ" firstAttribute="top" secondItem="FbW-rU-K6q" secondAttribute="top" constant="8" id="0D3-Oe-buf"/>
+                                            <constraint firstAttribute="trailing" secondItem="IdI-y1-PQJ" secondAttribute="trailing" constant="16" id="3fS-l3-4E1"/>
+                                            <constraint firstItem="IdI-y1-PQJ" firstAttribute="leading" secondItem="FbW-rU-K6q" secondAttribute="leading" constant="16" id="SMM-tb-oL5"/>
+                                            <constraint firstAttribute="bottom" secondItem="IdI-y1-PQJ" secondAttribute="bottom" constant="8" id="iB0-ML-l74"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cHP-dk-pJD">
+                                        <rect key="frame" x="0.0" y="64.666666666666686" width="414" height="604"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcr-TI-kZg" userLabel="Email Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="di6-bA-ggb"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Email"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBV-ac-wp7" userLabel="Name Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="60" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="pEN-mg-LXj"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="First Name"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVh-Pq-lbl" userLabel="Last Name Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="120" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="jZ7-42-Q4D"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Last Name"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3v-TC-buc" userLabel="Birth Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="180" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="3hK-v5-k4l"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Date of Birth (dd/MM/yyyy)"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="showNumberPadOnly" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uA4-Po-cz4" userLabel="Phone Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="240" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="CfQ-WD-rfm"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Phone Number"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="showNumberPadOnly" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1YF-KQ-crA" userLabel="City Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="wcW-fW-Hpy"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="City"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofc-tq-0x7" userLabel="Company Name Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="360" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="4zn-mu-xMr"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Company Name"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBP-3H-jfq" userLabel="Company Email Address Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="420" width="414" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="wB8-gg-VeA"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Company Email Address"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wVg-2P-4Bc" userLabel="Title Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="479.99999999999994" width="414" height="60.000000000000057"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="bzo-a0-RVH"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Title/Position"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTextInputNumber" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQy-NC-hrd" userLabel="Save">
+                                                <rect key="frame" x="0.0" y="540" width="414" height="64"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nic-tm-4fM">
+                                                        <rect key="frame" x="16" y="8" width="382" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="48" id="NyE-tX-xgr"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Save"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="Nic-tm-4fM" firstAttribute="top" secondItem="QQy-NC-hrd" secondAttribute="top" constant="8" id="4Ox-7H-Vab"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Nic-tm-4fM" secondAttribute="bottom" constant="8" id="6IL-u5-KKe"/>
+                                                    <constraint firstItem="Nic-tm-4fM" firstAttribute="leading" secondItem="QQy-NC-hrd" secondAttribute="leading" constant="16" id="hLD-2i-L5h"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Nic-tm-4fM" secondAttribute="trailing" constant="16" id="j07-JY-A3h"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="QQy-NC-hrd" secondAttribute="trailing" id="Hys-S2-o4j"/>
+                                            <constraint firstItem="Pcr-TI-kZg" firstAttribute="leading" secondItem="cHP-dk-pJD" secondAttribute="leading" id="Kfq-iz-AaC"/>
+                                            <constraint firstItem="QQy-NC-hrd" firstAttribute="leading" secondItem="cHP-dk-pJD" secondAttribute="leading" id="a7j-wh-ydi"/>
+                                            <constraint firstAttribute="trailing" secondItem="Pcr-TI-kZg" secondAttribute="trailing" id="pF0-Tq-34U"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cHP-dk-pJD" secondAttribute="bottom" id="9Bs-qP-Avm"/>
+                                    <constraint firstAttribute="trailing" secondItem="cHP-dk-pJD" secondAttribute="trailing" id="A0Q-b1-Hfh"/>
+                                    <constraint firstAttribute="trailing" secondItem="FbW-rU-K6q" secondAttribute="trailing" id="HIa-jq-SvR"/>
+                                    <constraint firstItem="FbW-rU-K6q" firstAttribute="leading" secondItem="w8w-wJ-pDH" secondAttribute="leading" id="Nw1-JR-dyE"/>
+                                    <constraint firstItem="cHP-dk-pJD" firstAttribute="top" secondItem="FbW-rU-K6q" secondAttribute="bottom" constant="8" id="XV7-Cw-1Od"/>
+                                    <constraint firstItem="FbW-rU-K6q" firstAttribute="top" secondItem="w8w-wJ-pDH" secondAttribute="top" id="hiJ-Pb-sUa"/>
+                                    <constraint firstItem="cHP-dk-pJD" firstAttribute="leading" secondItem="w8w-wJ-pDH" secondAttribute="leading" id="w0q-Jp-0pU"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YBj-sP-jLX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YBj-sP-jLX" firstAttribute="bottom" secondItem="w8w-wJ-pDH" secondAttribute="bottom" id="28G-1N-ziv"/>
+                            <constraint firstItem="w8w-wJ-pDH" firstAttribute="leading" secondItem="LHo-um-mzQ" secondAttribute="leading" id="Lme-1L-SH4"/>
+                            <constraint firstAttribute="trailing" secondItem="w8w-wJ-pDH" secondAttribute="trailing" id="mHh-xS-Kpw"/>
+                            <constraint firstItem="w8w-wJ-pDH" firstAttribute="top" secondItem="YBj-sP-jLX" secondAttribute="top" id="yT9-4c-fcx"/>
+                            <constraint firstItem="cHP-dk-pJD" firstAttribute="width" secondItem="YBj-sP-jLX" secondAttribute="width" id="zit-4G-l1W"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Analytics" image="Analytics" id="9vA-3H-Jyj" userLabel="Analytics"/>
+                    <tabBarItem key="tabBarItem" title="Profile" id="9vA-3H-Jyj" userLabel="Analytics">
+                        <imageReference key="image" image="person.crop.circle" catalog="system"/>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="birthDateTextInput" destination="d3v-TC-buc" id="Ury-9c-5YJ"/>
+                        <outlet property="cityTextInput" destination="1YF-KQ-crA" id="G6F-9N-cfc"/>
+                        <outlet property="companyEmailTextInput" destination="QBP-3H-jfq" id="ved-4D-xzf"/>
+                        <outlet property="companyNameTextInput" destination="ofc-tq-0x7" id="URb-gI-wKb"/>
+                        <outlet property="emailTextInput" destination="Pcr-TI-kZg" id="VPs-JM-v3T"/>
+                        <outlet property="lastNameTextInput" destination="NVh-Pq-lbl" id="nf8-IQ-Bge"/>
+                        <outlet property="nameTextInput" destination="aBV-ac-wp7" id="CPs-BY-xZC"/>
+                        <outlet property="phoneTextInput" destination="uA4-Po-cz4" id="lDk-xe-JMt"/>
+                        <outlet property="saveButton" destination="Nic-tm-4fM" id="m68-o0-xGt"/>
+                        <outlet property="titleTextInput" destination="wVg-2P-4Bc" id="12k-Gc-aQJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdL-wG-kzw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2000,7 +2188,6 @@ with Impact</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Analytics" width="26" height="22.666666030883789"/>
         <image name="Avatar" width="32" height="32"/>
         <image name="Avatar_1" width="50" height="50"/>
         <image name="Card_1" width="275" height="160"/>
@@ -2018,9 +2205,10 @@ with Impact</string>
         <image name="Visa_Text" width="31" height="10"/>
         <image name="Wallet" width="15.333333015441895" height="11.333333015441895"/>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <image name="settings" width="26.333333969116211" height="26.333333969116211"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -38,18 +38,4 @@ class NetmeraHelper {
     public static func enableInAppMessages() {
         Netmera.setEnabledInAppMessagePresentation(true)
     }
-
-    public static func updateUser(user: ImpactFintechUser) {
-        let netmeraUser = NMImpactFintechUser()
-        if let userName = user.userName {
-            netmeraUser.name = userName
-        }
-        if let userId = user.userId {
-            netmeraUser.userId = userId
-        }
-        if let type = user.type {
-            netmeraUser.type = type
-        }
-        Netmera.updateUser(user: netmeraUser)
-    }
 }
