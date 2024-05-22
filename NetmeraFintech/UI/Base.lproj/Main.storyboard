@@ -613,7 +613,7 @@ with Impact</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Tst aljsbd ajsb dajbs d" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCF-K7-SgW" userLabel="Contact Name">
-                                                            <rect key="frame" x="51" y="8" width="153.66666666666666" height="40"/>
+                                                            <rect key="frame" x="51" y="8" width="153.66666666666663" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="36" id="0Td-3R-rpp"/>
                                                             </constraints>
@@ -1960,10 +1960,10 @@ with Impact</string>
             </objects>
             <point key="canvasLocation" x="3764" y="-676"/>
         </scene>
-        <!--AnalyticsVC-->
+        <!--ProfileVC-->
         <scene sceneID="D3t-YR-bUX">
             <objects>
-                <viewController id="1E1-9U-ANT" userLabel="AnalyticsVC" customClass="AnalyticsVC" customModule="NetmeraFintech" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1E1-9U-ANT" userLabel="ProfileVC" customClass="ProfileVC" customModule="NetmeraFintech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LHo-um-mzQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1972,10 +1972,10 @@ with Impact</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbW-rU-K6q">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="56.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="55.666666666666664"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdI-y1-PQJ">
-                                                <rect key="frame" x="16" y="8" width="382" height="40.666666666666664"/>
+                                                <rect key="frame" x="16" y="8" width="382" height="39.666666666666664"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1990,7 +1990,7 @@ with Impact</string>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cHP-dk-pJD">
-                                        <rect key="frame" x="0.0" y="64.666666666666686" width="414" height="604"/>
+                                        <rect key="frame" x="0.0" y="63.666666666666686" width="414" height="604"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcr-TI-kZg" userLabel="Email Text Input" customClass="LabeledTextField" customModule="NetmeraFintech" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>

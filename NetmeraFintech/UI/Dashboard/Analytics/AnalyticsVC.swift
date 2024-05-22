@@ -4,7 +4,7 @@
 import NetmeraCore
 import UIKit
 
-class AnalyticsVC: UIViewController {
+class ProfileVC: UIViewController {
     @IBOutlet var saveButton: UIButton!
     @IBOutlet var emailTextInput: LabeledTextField!
     @IBOutlet var nameTextInput: LabeledTextField!
