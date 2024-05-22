@@ -4,26 +4,33 @@
 import NetmeraCore
 
 class NMImpactFintechUser: NetmeraUser {
-    var type: String? = nil
+    var companyName: String?
+    var companyEmail: String?
+    var title: String?
 
-    required init(type: String? = nil) {
+    override init() {
         super.init()
-        self.type = type
     }
 
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        type = try container.decodeIfPresent(String.self, forKey: .type)
+        companyName = try container.decodeIfPresent(String.self, forKey: .companyName)
+        companyEmail = try container.decodeIfPresent(String.self, forKey: .companyName)
+        title = try container.decodeIfPresent(String.self, forKey: .companyName)
         try super.init(from: decoder)
     }
 
     override func encode(to encoder: Encoder) throws {
         try super.encode(to: encoder)
         var container = encoder.container(keyedBy: CodingKeys.self)
-        try container.encode(type, forKey: .type)
+        try container.encode(companyName, forKey: .companyName)
+        try container.encode(companyEmail, forKey: .companyEmail)
+        try container.encode(title, forKey: .title)
     }
 
     enum CodingKeys: String, CodingKey {
-        case type = "bk"
+        case companyName = "ca"
+        case companyEmail = "or"
+        case title = "xi"
     }
 }

@@ -17,11 +17,9 @@ class OnboardingViewModel {
     }
 
     func updateUserAndSendSignInEvent(email: String) {
-        var user = ImpactFintechUser()
-        user.userName = "Burak"
+        let user = NMImpactFintechUser()
         user.userId = email
-        user.type = "black"
-        NetmeraHelper.updateUser(user: user)
+        Netmera.updateUser(user: user)
         NetmeraEvents.signInEvent()
         FirebaseEvents.signInEvent()
     }
