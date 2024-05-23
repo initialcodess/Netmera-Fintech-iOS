@@ -12,7 +12,7 @@
 		1C09160E2A66B9A0006FC3B4 /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */; };
 		1C0916102A66BA34006FC3B4 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */; };
 		1C0916122A66BA48006FC3B4 /* ExitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916112A66BA48006FC3B4 /* ExitVC.swift */; };
-		1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */; };
+		1C0916142A66BA63006FC3B4 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916132A66BA63006FC3B4 /* ProfileVC.swift */; };
 		1C0916162A66BB73006FC3B4 /* DashboardTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */; };
 		1C0DCC882A977F6F0001F4B7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DCC872A977F6F0001F4B7 /* NotificationService.swift */; };
 		1C0DCC8C2A977F6F0001F4B7 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1C0DCC852A977F6F0001F4B7 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -136,7 +136,7 @@
 		1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
 		1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		1C0916112A66BA48006FC3B4 /* ExitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitVC.swift; sourceTree = "<group>"; };
-		1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsVC.swift; sourceTree = "<group>"; };
+		1C0916132A66BA63006FC3B4 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		1C0916152A66BB73006FC3B4 /* DashboardTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarVC.swift; sourceTree = "<group>"; };
 		1C0DCC852A977F6F0001F4B7 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0DCC872A977F6F0001F4B7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
@@ -279,7 +279,7 @@
 				1C2CE65C2A7A478400D420FD /* SendMoney */,
 				1CC06AD52A71320500742E19 /* TransactionDetail */,
 				1C6556142A70058900AF04B0 /* ManageCard */,
-				1C0916092A66B825006FC3B4 /* Analytics */,
+				1C0916092A66B825006FC3B4 /* Profile */,
 				1C09160A2A66B82C006FC3B4 /* Exit */,
 				1C0916082A66B806006FC3B4 /* History */,
 				1C0916062A66B7EF006FC3B4 /* Home */,
@@ -317,12 +317,12 @@
 			path = History;
 			sourceTree = "<group>";
 		};
-		1C0916092A66B825006FC3B4 /* Analytics */ = {
+		1C0916092A66B825006FC3B4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				1C0916132A66BA63006FC3B4 /* AnalyticsVC.swift */,
+				1C0916132A66BA63006FC3B4 /* ProfileVC.swift */,
 			);
-			path = Analytics;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		1C09160A2A66B82C006FC3B4 /* Exit */ = {
@@ -908,7 +908,7 @@
 				1C2E0C052A604BE200CBC784 /* UIColor.swift in Sources */,
 				1C2E0BD82A601D2E00CBC784 /* OnboardingVC.swift in Sources */,
 				1C2E0BD42A601D2E00CBC784 /* AppDelegate.swift in Sources */,
-				1C0916142A66BA63006FC3B4 /* AnalyticsVC.swift in Sources */,
+				1C0916142A66BA63006FC3B4 /* ProfileVC.swift in Sources */,
 				1CEC249A2A618DAA00AB937A /* FreezeCardEvent.swift in Sources */,
 				1CEC24872A618BB800AB937A /* Card.swift in Sources */,
 				1C29287F2A6826660081E587 /* TransactionCollectionViewCell.swift in Sources */,
@@ -1177,7 +1177,7 @@
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
@@ -1217,7 +1217,7 @@
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;

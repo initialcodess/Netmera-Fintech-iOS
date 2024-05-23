@@ -70,6 +70,7 @@ class ProfileVC: UIViewController {
         if let date = birthDateTextInput.textField.text {
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd/MM/yyyy"
+            dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
             user.dateOfBirth = dateFormatter.date(from: date)
         }
 
