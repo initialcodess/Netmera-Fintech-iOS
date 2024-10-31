@@ -2,19 +2,21 @@
 platform :ios, '13.0'
 use_frameworks!
 
+netmera_sdk_version = '4.0.11'
+
 target 'NetmeraFintech' do
   # Comment the next line if you don't want to use dynamic frameworks
   # Pods for NetmeraFintech
   
   # Netmera Pods
-  pod "NetmeraAnalytic"
-  pod "NetmeraAnalyticAutotracking"
-  pod "NetmeraNotification"
-  pod "NetmeraNotificationCore"
-  pod "NetmeraAdvertisingId"
-  pod "NetmeraLocation"
-  pod "NetmeraGeofence"
-  pod "NetmeraNotificationInbox"
+  pod "NetmeraAnalytic", netmera_sdk_version
+  pod "NetmeraAnalyticAutotracking", netmera_sdk_version
+  pod "NetmeraNotification", netmera_sdk_version
+  pod "NetmeraNotificationCore", netmera_sdk_version
+  pod "NetmeraAdvertisingId", netmera_sdk_version
+  pod "NetmeraLocation", netmera_sdk_version
+  pod "NetmeraGeofence", netmera_sdk_version
+  pod "NetmeraNotificationInbox", netmera_sdk_version
   
   # Firebase Pods
   pod 'FirebaseAnalytics'
@@ -26,12 +28,12 @@ end
 
 target 'NotificationService' do
   # Netmera Pods
-  pod "NetmeraNotificationServiceExtension"
+  pod "NetmeraNotificationServiceExtension", netmera_sdk_version
 end
 
 target 'NotificationViewController' do
   # Netmera Pods
-  pod "NetmeraNotificationContentExtension"
+  pod "NetmeraNotificationContentExtension", netmera_sdk_version
 end
 
 post_install do |installer|

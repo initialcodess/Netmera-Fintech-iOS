@@ -1177,7 +1177,7 @@
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
@@ -1217,7 +1217,7 @@
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;

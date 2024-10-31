@@ -74,46 +74,46 @@ PODS:
     - nanopb/encode (= 2.30909.1)
   - nanopb/decode (2.30909.1)
   - nanopb/encode (2.30909.1)
-  - NetmeraAdvertisingId (4.0.1):
-    - NetmeraAnalytic (= 4.0.1)
-  - NetmeraAnalytic (4.0.1):
-    - NetmeraSwiftCore (= 4.0.1)
-  - NetmeraAnalyticAutotracking (4.0.1):
-    - NetmeraAnalytic (= 4.0.1)
-  - NetmeraGeofence (4.0.1):
-    - NetmeraLocation (= 4.0.1)
-  - NetmeraLocation (4.0.1):
-    - NetmeraAnalytic (= 4.0.1)
-  - NetmeraNotification (4.0.1):
-    - NetmeraNotificationCore (= 4.0.1)
-  - NetmeraNotificationContentExtension (4.0.1):
-    - NetmeraNotificationCore (= 4.0.1)
-  - NetmeraNotificationCore (4.0.1):
-    - NetmeraAnalytic (= 4.0.1)
-  - NetmeraNotificationInbox (4.0.1):
-    - NetmeraNotificationCore (= 4.0.1)
-  - NetmeraNotificationServiceExtension (4.0.1):
-    - NetmeraNotificationCore (= 4.0.1)
-  - NetmeraSwiftCore (4.0.1):
+  - NetmeraAdvertisingId (4.0.11):
+    - NetmeraAnalytic (= 4.0.11)
+  - NetmeraAnalytic (4.0.11):
+    - NetmeraSwiftCore (= 4.0.11)
+  - NetmeraAnalyticAutotracking (4.0.11):
+    - NetmeraAnalytic (= 4.0.11)
+  - NetmeraGeofence (4.0.11):
+    - NetmeraLocation (= 4.0.11)
+  - NetmeraLocation (4.0.11):
+    - NetmeraAnalytic (= 4.0.11)
+  - NetmeraNotification (4.0.11):
+    - NetmeraNotificationCore (= 4.0.11)
+  - NetmeraNotificationContentExtension (4.0.11):
+    - NetmeraNotificationCore (= 4.0.11)
+  - NetmeraNotificationCore (4.0.11):
+    - NetmeraAnalytic (= 4.0.11)
+  - NetmeraNotificationInbox (4.0.11):
+    - NetmeraNotificationCore (= 4.0.11)
+  - NetmeraNotificationServiceExtension (4.0.11):
+    - NetmeraNotificationCore (= 4.0.11)
+  - NetmeraSwiftCore (4.0.11):
     - Swinject (~> 2.8.0)
   - PromisesObjC (2.3.1)
-  - Swinject (2.8.3)
+  - Swinject (2.8.8)
   - ToastViewSwift (1.3.1)
 
 DEPENDENCIES:
   - CenteredCollectionView
   - FirebaseAnalytics
   - IQKeyboardManagerSwift
-  - NetmeraAdvertisingId
-  - NetmeraAnalytic
-  - NetmeraAnalyticAutotracking
-  - NetmeraGeofence
-  - NetmeraLocation
-  - NetmeraNotification
-  - NetmeraNotificationContentExtension
-  - NetmeraNotificationCore
-  - NetmeraNotificationInbox
-  - NetmeraNotificationServiceExtension
+  - NetmeraAdvertisingId (= 4.0.11)
+  - NetmeraAnalytic (= 4.0.11)
+  - NetmeraAnalyticAutotracking (= 4.0.11)
+  - NetmeraGeofence (= 4.0.11)
+  - NetmeraLocation (= 4.0.11)
+  - NetmeraNotification (= 4.0.11)
+  - NetmeraNotificationContentExtension (= 4.0.11)
+  - NetmeraNotificationCore (= 4.0.11)
+  - NetmeraNotificationInbox (= 4.0.11)
+  - NetmeraNotificationServiceExtension (= 4.0.11)
   - ToastViewSwift (= 1.3.1)
 
 SPEC REPOS:
@@ -152,21 +152,21 @@ SPEC CHECKSUMS:
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   IQKeyboardManagerSwift: 7f6b1b1d1497855d2beea7f2f10ffcc6978525b1
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
-  NetmeraAdvertisingId: 3e7e9c5163b80669e89189b661bcff0bcee31e34
-  NetmeraAnalytic: 6c09215c586b6568aed4dc925cc6b7c2dd5883d9
-  NetmeraAnalyticAutotracking: 194a468649a443a6df7043eece36e962b9d51059
-  NetmeraGeofence: d0a44da46ddb2c2f1db2ede7e3c9283c924ebf3c
-  NetmeraLocation: b0c4aa7e30f98d0df8373d5bb5410c506e6a8805
-  NetmeraNotification: 0e8890ff9b300463ded7712d60d96235cc7fd71c
-  NetmeraNotificationContentExtension: a9e58673f8fc98b3d1d99619ff4e610c561af7d4
-  NetmeraNotificationCore: a0b0ee2752e62e0a48217ba0aae53cb06b709535
-  NetmeraNotificationInbox: a5cff072fe4dd868b806b0797577609c46443ba8
-  NetmeraNotificationServiceExtension: aa43a653772fca431f4a56a459f19fb90a18d69f
-  NetmeraSwiftCore: 1ff9187a05c84867725cc98de57180dadcb063f9
+  NetmeraAdvertisingId: 8cb1acf5c86603cb254e01e5b3e3cc5215d84a99
+  NetmeraAnalytic: 6edfe610d8c12d0662fd38ae735723ebc8531a9e
+  NetmeraAnalyticAutotracking: 930d6330bc8f8c96d516b69d760976f848895c15
+  NetmeraGeofence: ba2f8d3f3a392b450fb39273a0654cd4fa2c57f5
+  NetmeraLocation: 2d50b0a1167256a0614674e7d2b9f715bcb3d528
+  NetmeraNotification: 57b428650524f1119c2dde76b2cb941decb6836a
+  NetmeraNotificationContentExtension: 03d151a75d659d10a50fb6543fea7bf672852f50
+  NetmeraNotificationCore: 4341198965d61677115f4fa8c7f93609026587a7
+  NetmeraNotificationInbox: e1634a4562f8d78d148b9b49aa6c3a5e21512a7f
+  NetmeraNotificationServiceExtension: 8cd0731d9c70f2cafb264eee6a88042d466aedf7
+  NetmeraSwiftCore: e7d5a56b03d5dde32d816f14bb1c6545cb3469eb
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+  Swinject: 2943463cdd58b49f114213bf1ce4a09f374828e7
   ToastViewSwift: 10655357b87fbe1070a14ae89c146b2335e4628a
 
-PODFILE CHECKSUM: 96b690240be693d585ae85d847f32bf3d8175441
+PODFILE CHECKSUM: 65d471aba56f70818c3a21d1823c4f483e81a374
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
